@@ -1,11 +1,15 @@
 {
-  "version": 2,
+  "version": 3,
   "status": "proposal",
   "locale": "uk",
   "updatedAt": "2026-10-09",
   "selection": {
     "minimumPerSection": 1,
-    "maximumPerSection": 3
+    "maximumPerSection": 3,
+    "unit": "supportOption"
+  },
+  "profile": {
+    "photoRequiredForPublication": true
   },
   "categories": [
     {
@@ -24,6 +28,24 @@
               "keywords": [
                 "напруга",
                 "перевантаження"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.stress.help.listen",
+                  "title": "Вислухати після напруженого дня"
+                },
+                {
+                  "id": "emotions.stress.help.unload",
+                  "title": "Разом розкласти навантаження на частини"
+                },
+                {
+                  "id": "emotions.stress.help.pause",
+                  "title": "Поділитися власними способами зробити паузу"
+                },
+                {
+                  "id": "emotions.stress.help.check-in",
+                  "title": "Домовитися про коротку підтримувальну розмову"
+                }
               ]
             },
             {
@@ -33,6 +55,24 @@
               "keywords": [
                 "тривога",
                 "переживання"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.worry.help.listen",
+                  "title": "Вислухати те, що зараз непокоїть"
+                },
+                {
+                  "id": "emotions.worry.help.questions",
+                  "title": "Допомогти сформулювати свої побоювання"
+                },
+                {
+                  "id": "emotions.worry.help.experience",
+                  "title": "Поділитися досвідом життя з невизначеністю"
+                },
+                {
+                  "id": "emotions.worry.help.next-step",
+                  "title": "Разом обрати посильну дію на сьогодні"
+                }
               ]
             },
             {
@@ -42,6 +82,24 @@
               "keywords": [
                 "гнів",
                 "дратівливість"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.anger.help.listen",
+                  "title": "Вислухати без осуду й оцінок"
+                },
+                {
+                  "id": "emotions.anger.help.words",
+                  "title": "Потренувати спокійне висловлення невдоволення"
+                },
+                {
+                  "id": "emotions.anger.help.pause",
+                  "title": "Поділитися власним досвідом паузи в суперечці"
+                },
+                {
+                  "id": "emotions.anger.help.conversation",
+                  "title": "Підготувати слова для розмови після конфлікту"
+                }
               ]
             },
             {
@@ -51,6 +109,24 @@
               "keywords": [
                 "хаос",
                 "перевантаження"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.overwhelm.help.list",
+                  "title": "Разом скласти список накопичених справ"
+                },
+                {
+                  "id": "emotions.overwhelm.help.priorities",
+                  "title": "Допомогти визначити одну найближчу справу"
+                },
+                {
+                  "id": "emotions.overwhelm.help.break-down",
+                  "title": "Розділити велику справу на невеликі кроки"
+                },
+                {
+                  "id": "emotions.overwhelm.help.company",
+                  "title": "Побути поруч під час першого кроку"
+                }
               ]
             }
           ]
@@ -67,6 +143,24 @@
                 "критика",
                 "до",
                 "себе"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.criticism.help.listen",
+                  "title": "Вислухати переживання про власні помилки"
+                },
+                {
+                  "id": "emotions.criticism.help.kind-words",
+                  "title": "Потренувати доброзичливі слова до себе"
+                },
+                {
+                  "id": "emotions.criticism.help.effort",
+                  "title": "Разом помітити вже докладені зусилля"
+                },
+                {
+                  "id": "emotions.criticism.help.experience",
+                  "title": "Поділитися досвідом менш суворих очікувань"
+                }
               ]
             },
             {
@@ -75,6 +169,24 @@
               "description": "Помітити власні сильні сторони й наявний досвід.",
               "keywords": [
                 "самооцінка"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.confidence.help.strengths",
+                  "title": "Допомогти помітити свої сильні сторони"
+                },
+                {
+                  "id": "emotions.confidence.help.rehearsal",
+                  "title": "Потренувати коротку розповідь про себе"
+                },
+                {
+                  "id": "emotions.confidence.help.feedback",
+                  "title": "Дати доброзичливий відгук на конкретну дію"
+                },
+                {
+                  "id": "emotions.confidence.help.small-step",
+                  "title": "Підтримати пробу нової для людини справи"
+                }
               ]
             },
             {
@@ -83,6 +195,24 @@
               "description": "Поговорити про чужі успіхи та власний темп.",
               "keywords": [
                 "заздрість"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.comparison.help.listen",
+                  "title": "Поговорити про порівняння себе з іншими"
+                },
+                {
+                  "id": "emotions.comparison.help.own-progress",
+                  "title": "Разом помітити власний поступ"
+                },
+                {
+                  "id": "emotions.comparison.help.needs",
+                  "title": "Допомогти назвати свої справжні потреби"
+                },
+                {
+                  "id": "emotions.comparison.help.experience",
+                  "title": "Поділитися досвідом руху у власному темпі"
+                }
               ]
             },
             {
@@ -92,6 +222,24 @@
               "keywords": [
                 "соромно",
                 "винен"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.guilt.help.listen",
+                  "title": "Вислухати переживання без осуду"
+                },
+                {
+                  "id": "emotions.guilt.help.words",
+                  "title": "Допомогти висловити те, що складно сказати"
+                },
+                {
+                  "id": "emotions.guilt.help.repair-talk",
+                  "title": "Підготувати слова для вибачення чи пояснення"
+                },
+                {
+                  "id": "emotions.guilt.help.company",
+                  "title": "Побути співрозмовником після складної події"
+                }
               ]
             }
           ]
@@ -107,6 +255,24 @@
               "keywords": [
                 "самотньо",
                 "ізоляція"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.loneliness.help.conversation",
+                  "title": "Провести теплу розмову про повсякденне"
+                },
+                {
+                  "id": "emotions.loneliness.help.walk",
+                  "title": "Скласти компанію на погодженій прогулянці"
+                },
+                {
+                  "id": "emotions.loneliness.help.shared-interest",
+                  "title": "Обговорити спільне захоплення"
+                },
+                {
+                  "id": "emotions.loneliness.help.regular-contact",
+                  "title": "Домовитися про регулярний дружній контакт"
+                }
               ]
             },
             {
@@ -115,6 +281,24 @@
               "description": "Обговорити ситуацію, у якій поки немає ясної відповіді.",
               "keywords": [
                 "сумніви"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.uncertainty.help.listen",
+                  "title": "Вислухати сумніви без нав’язування рішення"
+                },
+                {
+                  "id": "emotions.uncertainty.help.known-unknown",
+                  "title": "Разом відокремити відомі факти від припущень"
+                },
+                {
+                  "id": "emotions.uncertainty.help.questions",
+                  "title": "Скласти список запитань до ситуації"
+                },
+                {
+                  "id": "emotions.uncertainty.help.next-step",
+                  "title": "Обговорити невеликий наступний крок"
+                }
               ]
             },
             {
@@ -124,6 +308,24 @@
               "keywords": [
                 "прокрастинація",
                 "почати"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.motivation.help.start",
+                  "title": "Побути поруч під час початку справи"
+                },
+                {
+                  "id": "emotions.motivation.help.small-plan",
+                  "title": "Допомогти обрати посильний крок"
+                },
+                {
+                  "id": "emotions.motivation.help.check-in",
+                  "title": "Домовитися про доброзичливу перевірку поступу"
+                },
+                {
+                  "id": "emotions.motivation.help.experience",
+                  "title": "Поділитися досвідом початку без тиску"
+                }
               ]
             },
             {
@@ -133,6 +335,24 @@
               "keywords": [
                 "прохання",
                 "допомога"
+              ],
+              "supportOptions": [
+                {
+                  "id": "emotions.support.help.request",
+                  "title": "Допомогти сформулювати конкретне прохання"
+                },
+                {
+                  "id": "emotions.support.help.boundaries",
+                  "title": "Уточнити бажаний обсяг підтримки"
+                },
+                {
+                  "id": "emotions.support.help.rehearse",
+                  "title": "Відрепетирувати звернення до близької людини"
+                },
+                {
+                  "id": "emotions.support.help.message",
+                  "title": "Дати відгук на чернетку прохання"
+                }
               ]
             }
           ]
@@ -156,6 +376,24 @@
                 "пара",
                 "чоловік",
                 "дружина"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.talk.help.words",
+                  "title": "Допомогти сформулювати свої слова"
+                },
+                {
+                  "id": "relationships.talk.help.rehearse",
+                  "title": "Відрепетирувати складну розмову"
+                },
+                {
+                  "id": "relationships.talk.help.questions",
+                  "title": "Скласти запитання до партнера"
+                },
+                {
+                  "id": "relationships.talk.help.boundaries",
+                  "title": "Уточнити свої межі перед розмовою"
+                }
               ]
             },
             {
@@ -164,6 +402,24 @@
               "description": "Поговорити про довіру, сумніви й домовленості.",
               "keywords": [
                 "ревнощі"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.trust.help.listen",
+                  "title": "Вислухати сумніви про довіру"
+                },
+                {
+                  "id": "relationships.trust.help.agreements",
+                  "title": "Допомогти сформулювати бажані домовленості"
+                },
+                {
+                  "id": "relationships.trust.help.rehearse",
+                  "title": "Потренувати розмову про очікування"
+                },
+                {
+                  "id": "relationships.trust.help.experience",
+                  "title": "Поділитися власним досвідом відновлення контакту"
+                }
               ]
             },
             {
@@ -172,6 +428,24 @@
               "description": "Обмінятися досвідом підтримання близькості на відстані.",
               "keywords": [
                 "дистанція"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.distance.help.experience",
+                  "title": "Поділитися досвідом стосунків на відстані"
+                },
+                {
+                  "id": "relationships.distance.help.contact",
+                  "title": "Обговорити зручний ритм спілкування"
+                },
+                {
+                  "id": "relationships.distance.help.together",
+                  "title": "Знайти ідеї спільного онлайн-дозвілля"
+                },
+                {
+                  "id": "relationships.distance.help.expectations",
+                  "title": "Підготувати розмову про взаємні очікування"
+                }
               ]
             },
             {
@@ -180,6 +454,24 @@
               "description": "Зрозуміло висловити очікування й почути іншу людину.",
               "keywords": [
                 "близькість"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.needs.help.name",
+                  "title": "Допомогти назвати свої потреби"
+                },
+                {
+                  "id": "relationships.needs.help.rehearse",
+                  "title": "Потренувати висловлення прохання партнеру"
+                },
+                {
+                  "id": "relationships.needs.help.listen",
+                  "title": "Вислухати без оцінювання стосунків"
+                },
+                {
+                  "id": "relationships.needs.help.agreements",
+                  "title": "Разом сформулювати конкретну домовленість"
+                }
               ]
             }
           ]
@@ -195,6 +487,24 @@
               "keywords": [
                 "відмовити",
                 "межі"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.no.help.words",
+                  "title": "Допомогти скласти ввічливу відмову"
+                },
+                {
+                  "id": "relationships.no.help.rehearse",
+                  "title": "Потренувати відповідь на повторне прохання"
+                },
+                {
+                  "id": "relationships.no.help.message",
+                  "title": "Дати відгук на повідомлення з відмовою"
+                },
+                {
+                  "id": "relationships.no.help.experience",
+                  "title": "Поділитися досвідом збереження власних меж"
+                }
               ]
             },
             {
@@ -203,6 +513,24 @@
               "description": "Поговорити про суперечку й можливий наступний крок.",
               "keywords": [
                 "сварка"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.conflict.help.listen",
+                  "title": "Вислухати після суперечки"
+                },
+                {
+                  "id": "relationships.conflict.help.facts",
+                  "title": "Допомогти описати подію без звинувачень"
+                },
+                {
+                  "id": "relationships.conflict.help.rehearse",
+                  "title": "Підготувати розмову про примирення"
+                },
+                {
+                  "id": "relationships.conflict.help.next-step",
+                  "title": "Обговорити посильний крок для відновлення контакту"
+                }
               ]
             },
             {
@@ -211,6 +539,24 @@
               "description": "Поділитися досвідом захисту власних меж.",
               "keywords": [
                 "маніпуляція"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.pressure.help.listen",
+                  "title": "Вислухати ситуацію нав’язливого тиску"
+                },
+                {
+                  "id": "relationships.pressure.help.response",
+                  "title": "Підготувати коротку відповідь із межами"
+                },
+                {
+                  "id": "relationships.pressure.help.rehearse",
+                  "title": "Відрепетирувати завершення небажаної розмови"
+                },
+                {
+                  "id": "relationships.pressure.help.experience",
+                  "title": "Поділитися власним досвідом відмови"
+                }
               ]
             },
             {
@@ -219,6 +565,24 @@
               "description": "Потренувати ясний і доброзичливий зворотний зв’язок.",
               "keywords": [
                 "критика"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.feedback.help.wording",
+                  "title": "Допомогти сформулювати конкретний відгук"
+                },
+                {
+                  "id": "relationships.feedback.help.rehearse",
+                  "title": "Потренувати доброзичливе висловлення критики"
+                },
+                {
+                  "id": "relationships.feedback.help.response",
+                  "title": "Потренувати відповідь на складний відгук"
+                },
+                {
+                  "id": "relationships.feedback.help.draft",
+                  "title": "Переглянути чернетку повідомлення з відгуком"
+                }
               ]
             }
           ]
@@ -233,6 +597,24 @@
               "description": "Обговорити способи знайомитися й підтримувати контакт.",
               "keywords": [
                 "знайомства"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.friendship.help.experience",
+                  "title": "Поділитися досвідом знайомств у дорослому віці"
+                },
+                {
+                  "id": "relationships.friendship.help.first-message",
+                  "title": "Допомогти написати перше дружнє повідомлення"
+                },
+                {
+                  "id": "relationships.friendship.help.places",
+                  "title": "Обговорити безоплатні способи знайти своє коло"
+                },
+                {
+                  "id": "relationships.friendship.help.conversation",
+                  "title": "Потренувати початок дружньої розмови"
+                }
               ]
             },
             {
@@ -242,6 +624,24 @@
               "keywords": [
                 "друг",
                 "подруга"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.friend-talk.help.listen",
+                  "title": "Вислухати складнощі у дружбі"
+                },
+                {
+                  "id": "relationships.friend-talk.help.expectations",
+                  "title": "Допомогти сформулювати свої очікування"
+                },
+                {
+                  "id": "relationships.friend-talk.help.message",
+                  "title": "Підготувати повідомлення другові"
+                },
+                {
+                  "id": "relationships.friend-talk.help.experience",
+                  "title": "Обмінятися досвідом підтримання дружби"
+                }
               ]
             },
             {
@@ -250,6 +650,24 @@
               "description": "Потренувати початок розмови без вимоги бути ідеальним.",
               "keywords": [
                 "сором’язливість"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.social.help.start",
+                  "title": "Потренувати знайомство й початок розмови"
+                },
+                {
+                  "id": "relationships.social.help.questions",
+                  "title": "Разом придумати відкриті запитання"
+                },
+                {
+                  "id": "relationships.social.help.role-play",
+                  "title": "Провести пробну розмову в новому оточенні"
+                },
+                {
+                  "id": "relationships.social.help.company",
+                  "title": "Скласти компанію для погодженого знайомства"
+                }
               ]
             },
             {
@@ -259,6 +677,24 @@
               "keywords": [
                 "слухати",
                 "емпатія"
+              ],
+              "supportOptions": [
+                {
+                  "id": "relationships.listen.help.practice",
+                  "title": "Попрактикувати уважне слухання"
+                },
+                {
+                  "id": "relationships.listen.help.questions",
+                  "title": "Потренувати уточнювальні запитання"
+                },
+                {
+                  "id": "relationships.listen.help.feedback",
+                  "title": "Дати відгук на стиль розмови"
+                },
+                {
+                  "id": "relationships.listen.help.experience",
+                  "title": "Обмінятися досвідом підтримки співрозмовника"
+                }
               ]
             }
           ]
@@ -282,6 +718,24 @@
                 "немовля",
                 "мама",
                 "тато"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.new-parent.help.listen",
+                  "title": "Вислухати досвід перших місяців із дитиною"
+                },
+                {
+                  "id": "family.new-parent.help.experience",
+                  "title": "Поділитися власним побутовим досвідом батьківства"
+                },
+                {
+                  "id": "family.new-parent.help.help-request",
+                  "title": "Допомогти сформулювати прохання про допомогу"
+                },
+                {
+                  "id": "family.new-parent.help.routine",
+                  "title": "Обговорити посильний розподіл щоденних справ"
+                }
               ]
             },
             {
@@ -291,6 +745,24 @@
               "keywords": [
                 "батьківське",
                 "вигорання"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.parent-load.help.listen",
+                  "title": "Вислухати батьківську втому без осуду"
+                },
+                {
+                  "id": "family.parent-load.help.tasks",
+                  "title": "Разом визначити справи, які можна поділити"
+                },
+                {
+                  "id": "family.parent-load.help.help-request",
+                  "title": "Підготувати прохання до близьких про підтримку"
+                },
+                {
+                  "id": "family.parent-load.help.pause",
+                  "title": "Обмінятися досвідом короткого відпочинку"
+                }
               ]
             },
             {
@@ -299,6 +771,24 @@
               "description": "Обмінятися досвідом уважного повсякденного спілкування.",
               "keywords": [
                 "діти"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.child-talk.help.experience",
+                  "title": "Поділитися власним досвідом розмов із дитиною"
+                },
+                {
+                  "id": "family.child-talk.help.words",
+                  "title": "Підготувати зрозумілі слова для важливої теми"
+                },
+                {
+                  "id": "family.child-talk.help.rehearse",
+                  "title": "Відрепетирувати повсякденну сімейну розмову"
+                },
+                {
+                  "id": "family.child-talk.help.questions",
+                  "title": "Придумати доброзичливі запитання для контакту"
+                }
               ]
             },
             {
@@ -307,6 +797,24 @@
               "description": "Поговорити про зміни, контакт і сімейні домовленості.",
               "keywords": [
                 "підлітки"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.teen.help.listen",
+                  "title": "Вислухати переживання батьків підлітка"
+                },
+                {
+                  "id": "family.teen.help.experience",
+                  "title": "Обмінятися власним досвідом батьківства"
+                },
+                {
+                  "id": "family.teen.help.agreements",
+                  "title": "Підготувати розмову про сімейні домовленості"
+                },
+                {
+                  "id": "family.teen.help.contact",
+                  "title": "Обговорити ідеї спільного часу з підлітком"
+                }
               ]
             }
           ]
@@ -322,6 +830,24 @@
               "keywords": [
                 "мама",
                 "тато"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.parents.help.listen",
+                  "title": "Вислухати складнощі у спілкуванні з батьками"
+                },
+                {
+                  "id": "family.parents.help.boundaries",
+                  "title": "Допомогти сформулювати свої межі"
+                },
+                {
+                  "id": "family.parents.help.message",
+                  "title": "Переглянути чернетку повідомлення батькам"
+                },
+                {
+                  "id": "family.parents.help.rehearse",
+                  "title": "Відрепетирувати важливу розмову"
+                }
               ]
             },
             {
@@ -330,6 +856,24 @@
               "description": "Підготувати ясну розмову про особисті рішення й межі.",
               "keywords": [
                 "родина"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.family-boundaries.help.words",
+                  "title": "Підготувати слова про особисте рішення"
+                },
+                {
+                  "id": "family.family-boundaries.help.rehearse",
+                  "title": "Потренувати відмову родичам"
+                },
+                {
+                  "id": "family.family-boundaries.help.expectations",
+                  "title": "Уточнити прийнятні для себе домовленості"
+                },
+                {
+                  "id": "family.family-boundaries.help.experience",
+                  "title": "Поділитися досвідом поважного встановлення меж"
+                }
               ]
             },
             {
@@ -339,6 +883,24 @@
               "keywords": [
                 "брат",
                 "сестра"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.siblings.help.listen",
+                  "title": "Вислухати сімейне непорозуміння"
+                },
+                {
+                  "id": "family.siblings.help.message",
+                  "title": "Допомогти підготувати повідомлення родичеві"
+                },
+                {
+                  "id": "family.siblings.help.reconnect",
+                  "title": "Обговорити можливий крок для відновлення контакту"
+                },
+                {
+                  "id": "family.siblings.help.experience",
+                  "title": "Обмінятися власним досвідом сімейного спілкування"
+                }
               ]
             },
             {
@@ -347,6 +909,24 @@
               "description": "Обмінятися досвідом щоденних домовленостей щодо дітей.",
               "keywords": [
                 "розлучення"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.co-parent.help.experience",
+                  "title": "Поділитися побутовим досвідом спільного батьківства"
+                },
+                {
+                  "id": "family.co-parent.help.schedule",
+                  "title": "Допомогти скласти чернетку щоденного розкладу"
+                },
+                {
+                  "id": "family.co-parent.help.words",
+                  "title": "Підготувати нейтральне повідомлення про справи дитини"
+                },
+                {
+                  "id": "family.co-parent.help.agreements",
+                  "title": "Обговорити зрозумілі побутові домовленості"
+                }
               ]
             }
           ]
@@ -361,6 +941,24 @@
               "description": "Поговорити про досвід турботи й власний ресурс.",
               "keywords": [
                 "доглядальник"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.care-relative.help.listen",
+                  "title": "Вислухати досвід турботи про близьку людину"
+                },
+                {
+                  "id": "family.care-relative.help.tasks",
+                  "title": "Разом упорядкувати побутові справи догляду"
+                },
+                {
+                  "id": "family.care-relative.help.help-request",
+                  "title": "Допомогти попросити близьких розділити навантаження"
+                },
+                {
+                  "id": "family.care-relative.help.experience",
+                  "title": "Обмінятися власним досвідом збереження сил"
+                }
               ]
             },
             {
@@ -370,6 +968,24 @@
               "keywords": [
                 "старші",
                 "люди"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.elderly.help.contact",
+                  "title": "Обговорити ідеї регулярного контакту з родичем"
+                },
+                {
+                  "id": "family.elderly.help.routine",
+                  "title": "Допомогти скласти список побутової підтримки"
+                },
+                {
+                  "id": "family.elderly.help.digital",
+                  "title": "Пояснити прості способи зв’язку телефоном"
+                },
+                {
+                  "id": "family.elderly.help.experience",
+                  "title": "Поділитися власним досвідом турботи про старших"
+                }
               ]
             },
             {
@@ -378,6 +994,24 @@
               "description": "Обговорити справедливі й посильні домовленості вдома.",
               "keywords": [
                 "обов’язки"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.household.help.list",
+                  "title": "Разом скласти перелік домашніх справ"
+                },
+                {
+                  "id": "family.household.help.distribution",
+                  "title": "Обговорити посильний розподіл обов’язків"
+                },
+                {
+                  "id": "family.household.help.conversation",
+                  "title": "Підготувати сімейну розмову про побут"
+                },
+                {
+                  "id": "family.household.help.routine",
+                  "title": "Поділитися досвідом зручного домашнього ритму"
+                }
               ]
             },
             {
@@ -387,6 +1021,24 @@
               "keywords": [
                 "сімейне",
                 "дозвілля"
+              ],
+              "supportOptions": [
+                {
+                  "id": "family.family-time.help.ideas",
+                  "title": "Запропонувати ідеї безоплатного сімейного дозвілля"
+                },
+                {
+                  "id": "family.family-time.help.plan",
+                  "title": "Допомогти спланувати спільний вечір"
+                },
+                {
+                  "id": "family.family-time.help.experience",
+                  "title": "Поділитися досвідом сімейних традицій"
+                },
+                {
+                  "id": "family.family-time.help.conversation",
+                  "title": "Обговорити інтереси й побажання членів сім’ї"
+                }
               ]
             }
           ]
@@ -408,6 +1060,24 @@
               "description": "Поділитися досвідом побуту й знайомств після переїзду.",
               "keywords": [
                 "переїзд"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.new-city.help.experience",
+                  "title": "Поділитися досвідом життя в цьому місті"
+                },
+                {
+                  "id": "changes.new-city.help.orientation",
+                  "title": "Допомогти зорієнтуватися в повсякденних міських справах"
+                },
+                {
+                  "id": "changes.new-city.help.walk",
+                  "title": "Скласти компанію на ознайомчій прогулянці"
+                },
+                {
+                  "id": "changes.new-city.help.community",
+                  "title": "Обговорити способи знайти місцеве коло спілкування"
+                }
               ]
             },
             {
@@ -417,6 +1087,24 @@
               "keywords": [
                 "еміграція",
                 "міграція"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.abroad.help.experience",
+                  "title": "Поділитися власним досвідом адаптації за кордоном"
+                },
+                {
+                  "id": "changes.abroad.help.daily-life",
+                  "title": "Обговорити знайомі побутові відмінності"
+                },
+                {
+                  "id": "changes.abroad.help.language",
+                  "title": "Потренувати повсякденну розмову мовою країни"
+                },
+                {
+                  "id": "changes.abroad.help.questions",
+                  "title": "Допомогти скласти запитання до офіційного джерела"
+                }
               ]
             },
             {
@@ -425,6 +1113,24 @@
               "description": "Поговорити про розлуку зі звичним місцем і людьми.",
               "keywords": [
                 "ностальгія"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.home.help.listen",
+                  "title": "Вислухати тугу за домом"
+                },
+                {
+                  "id": "changes.home.help.contact",
+                  "title": "Обговорити зручні способи підтримувати зв’язок"
+                },
+                {
+                  "id": "changes.home.help.traditions",
+                  "title": "Поділитися власним досвідом збереження знайомих традицій"
+                },
+                {
+                  "id": "changes.home.help.company",
+                  "title": "Скласти компанію для теплої розмови"
+                }
               ]
             },
             {
@@ -433,6 +1139,24 @@
               "description": "Обговорити очікування й повсякденні зміни після повернення.",
               "keywords": [
                 "репатріація"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.return.help.experience",
+                  "title": "Поділитися досвідом повернення додому"
+                },
+                {
+                  "id": "changes.return.help.first-days",
+                  "title": "Разом скласти посильний план перших днів"
+                },
+                {
+                  "id": "changes.return.help.contact",
+                  "title": "Підготувати повідомлення для відновлення контакту"
+                },
+                {
+                  "id": "changes.return.help.listen",
+                  "title": "Вислухати переживання про повернення"
+                }
               ]
             }
           ]
@@ -448,6 +1172,24 @@
               "keywords": [
                 "розрив",
                 "розлучення"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.breakup.help.listen",
+                  "title": "Вислухати після розставання без осуду"
+                },
+                {
+                  "id": "changes.breakup.help.routine",
+                  "title": "Обговорити прості повсякденні опори"
+                },
+                {
+                  "id": "changes.breakup.help.company",
+                  "title": "Скласти компанію на прогулянці чи в розмові"
+                },
+                {
+                  "id": "changes.breakup.help.experience",
+                  "title": "Поділитися власним досвідом нового життєвого ритму"
+                }
               ]
             },
             {
@@ -457,6 +1199,24 @@
               "keywords": [
                 "горе",
                 "смерть"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.bereavement.help.listen",
+                  "title": "Вислухати спогади й переживання втрати"
+                },
+                {
+                  "id": "changes.bereavement.help.company",
+                  "title": "Побути поруч у погодженому форматі"
+                },
+                {
+                  "id": "changes.bereavement.help.daily-tasks",
+                  "title": "Допомогти впорядкувати посильні побутові справи"
+                },
+                {
+                  "id": "changes.bereavement.help.help-request",
+                  "title": "Допомогти сформулювати прохання до близьких"
+                }
               ]
             },
             {
@@ -465,6 +1225,24 @@
               "description": "Поговорити про розчарування й доступні наступні кроки.",
               "keywords": [
                 "криза"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.plans.help.listen",
+                  "title": "Вислухати розчарування через зруйновані плани"
+                },
+                {
+                  "id": "changes.plans.help.inventory",
+                  "title": "Разом помітити те, що залишається доступним"
+                },
+                {
+                  "id": "changes.plans.help.next-step",
+                  "title": "Обговорити один можливий наступний крок"
+                },
+                {
+                  "id": "changes.plans.help.experience",
+                  "title": "Поділитися власним досвідом зміни планів"
+                }
               ]
             },
             {
@@ -473,6 +1251,24 @@
               "description": "Обговорити зміну ролі, звичного ритму або оточення.",
               "keywords": [
                 "зміни"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.new-stage.help.experience",
+                  "title": "Поділитися досвідом схожого життєвого переходу"
+                },
+                {
+                  "id": "changes.new-stage.help.questions",
+                  "title": "Допомогти сформулювати очікування й запитання"
+                },
+                {
+                  "id": "changes.new-stage.help.routine",
+                  "title": "Обговорити посильний ритм на новому етапі"
+                },
+                {
+                  "id": "changes.new-stage.help.listen",
+                  "title": "Вислухати сумніви перед змінами"
+                }
               ]
             }
           ]
@@ -488,6 +1284,24 @@
               "keywords": [
                 "впо",
                 "переселенці"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.displacement.help.listen",
+                  "title": "Вислухати досвід вимушеного переїзду"
+                },
+                {
+                  "id": "changes.displacement.help.experience",
+                  "title": "Поділитися власним побутовим досвідом адаптації"
+                },
+                {
+                  "id": "changes.displacement.help.tasks",
+                  "title": "Допомогти впорядкувати першочергові справи"
+                },
+                {
+                  "id": "changes.displacement.help.resources",
+                  "title": "Допомогти знайти офіційні відкриті джерела підтримки"
+                }
               ]
             },
             {
@@ -497,6 +1311,24 @@
               "keywords": [
                 "війна",
                 "родина"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.separation.help.listen",
+                  "title": "Вислухати переживання розлуки з близькими"
+                },
+                {
+                  "id": "changes.separation.help.contact",
+                  "title": "Обговорити доступний ритм підтримання зв’язку"
+                },
+                {
+                  "id": "changes.separation.help.message",
+                  "title": "Допомогти написати підтримувальне повідомлення"
+                },
+                {
+                  "id": "changes.separation.help.company",
+                  "title": "Побути співрозмовником у складний день"
+                }
               ]
             },
             {
@@ -506,6 +1338,24 @@
               "keywords": [
                 "ветеран",
                 "військовий"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.veteran.help.listen",
+                  "title": "Вислухати досвід повернення до цивільного життя"
+                },
+                {
+                  "id": "changes.veteran.help.experience",
+                  "title": "Поділитися власним досвідом побутової адаптації"
+                },
+                {
+                  "id": "changes.veteran.help.routine",
+                  "title": "Обговорити посильні щоденні домовленості"
+                },
+                {
+                  "id": "changes.veteran.help.resources",
+                  "title": "Допомогти знайти офіційні відкриті ресурси підтримки"
+                }
               ]
             },
             {
@@ -515,6 +1365,24 @@
               "keywords": [
                 "відключення",
                 "невизначеність"
+              ],
+              "supportOptions": [
+                {
+                  "id": "changes.unstable.help.listen",
+                  "title": "Вислухати переживання через нестабільність"
+                },
+                {
+                  "id": "changes.unstable.help.routine",
+                  "title": "Обмінятися власним досвідом організації побуту"
+                },
+                {
+                  "id": "changes.unstable.help.tasks",
+                  "title": "Разом визначити посильні справи на сьогодні"
+                },
+                {
+                  "id": "changes.unstable.help.contact",
+                  "title": "Домовитися про короткий підтримувальний контакт"
+                }
               ]
             }
           ]
@@ -537,6 +1405,24 @@
               "keywords": [
                 "cv",
                 "linkedin"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.cv.help.review",
+                  "title": "Переглянути резюме й дати конкретний відгук"
+                },
+                {
+                  "id": "work.cv.help.structure",
+                  "title": "Допомогти впорядкувати структуру резюме"
+                },
+                {
+                  "id": "work.cv.help.portfolio",
+                  "title": "Обговорити добір робіт до портфоліо"
+                },
+                {
+                  "id": "work.cv.help.experience",
+                  "title": "Допомогти описати досвід і результати роботи"
+                }
               ]
             },
             {
@@ -545,6 +1431,24 @@
               "description": "Потренувати відповіді й розмову про власний досвід.",
               "keywords": [
                 "інтерв’ю"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.interview.help.mock",
+                  "title": "Провести пробну співбесіду"
+                },
+                {
+                  "id": "work.interview.help.self-intro",
+                  "title": "Потренувати коротку розповідь про себе"
+                },
+                {
+                  "id": "work.interview.help.answers",
+                  "title": "Дати відгук на відповіді на типові запитання"
+                },
+                {
+                  "id": "work.interview.help.questions",
+                  "title": "Допомогти скласти запитання до роботодавця"
+                }
               ]
             },
             {
@@ -553,6 +1457,24 @@
               "description": "Обмінятися досвідом організації пошуку роботи.",
               "keywords": [
                 "працевлаштування"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.search.help.criteria",
+                  "title": "Допомогти визначити критерії потрібної вакансії"
+                },
+                {
+                  "id": "work.search.help.public-search",
+                  "title": "Разом переглянути відкриті вакансії"
+                },
+                {
+                  "id": "work.search.help.requirements",
+                  "title": "Обговорити вимоги обраної вакансії"
+                },
+                {
+                  "id": "work.search.help.application",
+                  "title": "Переглянути чернетку відгуку на вакансію"
+                }
               ]
             },
             {
@@ -562,6 +1484,24 @@
               "keywords": [
                 "відмова",
                 "вакансія"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.rejection.help.listen",
+                  "title": "Вислухати після відмови роботодавця"
+                },
+                {
+                  "id": "work.rejection.help.feedback-request",
+                  "title": "Підготувати запит на зворотний зв’язок"
+                },
+                {
+                  "id": "work.rejection.help.experience",
+                  "title": "Поділитися власним досвідом пошуку роботи"
+                },
+                {
+                  "id": "work.rejection.help.next-application",
+                  "title": "Підтримати підготовку наступного відгуку"
+                }
               ]
             }
           ]
@@ -577,6 +1517,24 @@
               "keywords": [
                 "кар’єрний",
                 "шлях"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.direction.help.experience",
+                  "title": "Розповісти про власний досвід у професії"
+                },
+                {
+                  "id": "work.direction.help.questions",
+                  "title": "Допомогти скласти запитання про професійний напрям"
+                },
+                {
+                  "id": "work.direction.help.interests",
+                  "title": "Обговорити інтереси й наявні навички"
+                },
+                {
+                  "id": "work.direction.help.next-step",
+                  "title": "Разом визначити невелику ознайомчу дію"
+                }
               ]
             },
             {
@@ -585,6 +1543,24 @@
               "description": "Обмінятися особистим досвідом переходу в іншу сферу.",
               "keywords": [
                 "світчинг"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.switch.help.experience",
+                  "title": "Поділитися власним досвідом зміни професії"
+                },
+                {
+                  "id": "work.switch.help.skills",
+                  "title": "Разом помітити навички, які можна перенести"
+                },
+                {
+                  "id": "work.switch.help.learning-plan",
+                  "title": "Обговорити перші кроки навчання новій справі"
+                },
+                {
+                  "id": "work.switch.help.cv",
+                  "title": "Дати відгук на резюме для нового напряму"
+                }
               ]
             },
             {
@@ -593,6 +1569,24 @@
               "description": "Підготуватися до нових завдань і розмови про розвиток.",
               "keywords": [
                 "кар’єра"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.promotion.help.experience",
+                  "title": "Поділитися досвідом переходу в нову роль"
+                },
+                {
+                  "id": "work.promotion.help.conversation",
+                  "title": "Потренувати розмову про підвищення"
+                },
+                {
+                  "id": "work.promotion.help.priorities",
+                  "title": "Обговорити перші робочі пріоритети"
+                },
+                {
+                  "id": "work.promotion.help.questions",
+                  "title": "Допомогти скласти запитання про очікування від ролі"
+                }
               ]
             },
             {
@@ -602,6 +1596,24 @@
               "keywords": [
                 "декрет",
                 "перерва"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.restart.help.experience",
+                  "title": "Поділитися досвідом повернення після перерви"
+                },
+                {
+                  "id": "work.restart.help.cv",
+                  "title": "Допомогти описати перерву в резюме"
+                },
+                {
+                  "id": "work.restart.help.routine",
+                  "title": "Обговорити посильний ритм повернення"
+                },
+                {
+                  "id": "work.restart.help.interview",
+                  "title": "Потренувати розповідь про повернення до роботи"
+                }
               ]
             }
           ]
@@ -616,6 +1628,24 @@
               "description": "Поговорити про пріоритети й межі навантаження.",
               "keywords": [
                 "вигорання"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.workload.help.listen",
+                  "title": "Вислухати про робоче перевантаження"
+                },
+                {
+                  "id": "work.workload.help.tasks",
+                  "title": "Разом упорядкувати поточні завдання"
+                },
+                {
+                  "id": "work.workload.help.boundaries",
+                  "title": "Підготувати розмову про навантаження й межі"
+                },
+                {
+                  "id": "work.workload.help.experience",
+                  "title": "Поділитися власним досвідом збереження робочого ритму"
+                }
               ]
             },
             {
@@ -625,6 +1655,24 @@
               "keywords": [
                 "керівник",
                 "команда"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.colleagues.help.rehearse",
+                  "title": "Потренувати складну розмову з колегою"
+                },
+                {
+                  "id": "work.colleagues.help.message",
+                  "title": "Переглянути чернетку робочого повідомлення"
+                },
+                {
+                  "id": "work.colleagues.help.feedback",
+                  "title": "Допомогти сформулювати конкретний відгук"
+                },
+                {
+                  "id": "work.colleagues.help.experience",
+                  "title": "Обмінятися досвідом командних домовленостей"
+                }
               ]
             },
             {
@@ -633,6 +1681,24 @@
               "description": "Поділитися досвідом ритму, самостійності й контакту з командою.",
               "keywords": [
                 "remote"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.remote.help.routine",
+                  "title": "Поділитися досвідом зручного робочого дня вдома"
+                },
+                {
+                  "id": "work.remote.help.workspace",
+                  "title": "Обговорити організацію робочого місця"
+                },
+                {
+                  "id": "work.remote.help.boundaries",
+                  "title": "Підготувати домовленості про робочий час"
+                },
+                {
+                  "id": "work.remote.help.company",
+                  "title": "Домовитися про коротку спільну робочу сесію"
+                }
               ]
             },
             {
@@ -641,6 +1707,24 @@
               "description": "Обмінятися досвідом організації роботи й домовленостей.",
               "keywords": [
                 "самозайнятість"
+              ],
+              "supportOptions": [
+                {
+                  "id": "work.freelance.help.experience",
+                  "title": "Поділитися власним досвідом фрилансу"
+                },
+                {
+                  "id": "work.freelance.help.brief",
+                  "title": "Допомогти скласти запитання до завдання клієнта"
+                },
+                {
+                  "id": "work.freelance.help.communication",
+                  "title": "Потренувати розмову про строки й обсяг роботи"
+                },
+                {
+                  "id": "work.freelance.help.workflow",
+                  "title": "Обговорити зручний облік власних завдань"
+                }
               ]
             }
           ]
@@ -662,6 +1746,24 @@
               "description": "Отримати уважний погляд на задум і його можливі кроки.",
               "keywords": [
                 "стартап"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.idea.help.listen",
+                  "title": "Вислухати ідею й поставити уточнювальні запитання"
+                },
+                {
+                  "id": "projects.idea.help.feedback",
+                  "title": "Дати доброзичливий відгук на задум"
+                },
+                {
+                  "id": "projects.idea.help.summary",
+                  "title": "Допомогти коротко пояснити ідею"
+                },
+                {
+                  "id": "projects.idea.help.assumptions",
+                  "title": "Разом виписати припущення для перевірки"
+                }
               ]
             },
             {
@@ -670,6 +1772,24 @@
               "description": "Розкласти початок роботи на посильні дії.",
               "keywords": [
                 "запуск"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.first-step.help.scope",
+                  "title": "Допомогти обрати невеликий перший результат"
+                },
+                {
+                  "id": "projects.first-step.help.plan",
+                  "title": "Розкласти перший крок на прості дії"
+                },
+                {
+                  "id": "projects.first-step.help.company",
+                  "title": "Побути партнером під час початку"
+                },
+                {
+                  "id": "projects.first-step.help.experience",
+                  "title": "Поділитися власним досвідом старту проєкту"
+                }
               ]
             },
             {
@@ -678,6 +1798,24 @@
               "description": "Поділитися досвідом розмов із можливими користувачами.",
               "keywords": [
                 "продукт"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.test-idea.help.questions",
+                  "title": "Допомогти підготувати запитання для опитування"
+                },
+                {
+                  "id": "projects.test-idea.help.rehearse",
+                  "title": "Відрепетирувати розмову про ідею"
+                },
+                {
+                  "id": "projects.test-idea.help.feedback",
+                  "title": "Дати відгук як можливий користувач"
+                },
+                {
+                  "id": "projects.test-idea.help.notes",
+                  "title": "Разом упорядкувати отримані відповіді"
+                }
               ]
             },
             {
@@ -686,6 +1824,24 @@
               "description": "Обговорити час, ресурс і реалістичний обсяг.",
               "keywords": [
                 "пет-проєкт"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.side-project.help.time",
+                  "title": "Обговорити посильний час для власного проєкту"
+                },
+                {
+                  "id": "projects.side-project.help.scope",
+                  "title": "Допомогти зменшити обсяг першої версії"
+                },
+                {
+                  "id": "projects.side-project.help.experience",
+                  "title": "Поділитися досвідом поєднання з основною роботою"
+                },
+                {
+                  "id": "projects.side-project.help.check-in",
+                  "title": "Домовитися про доброзичливий контакт щодо поступу"
+                }
               ]
             }
           ]
@@ -700,6 +1856,24 @@
               "description": "Обмінятися досвідом пошуку контакту й презентації роботи.",
               "keywords": [
                 "продажі"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.customers.help.experience",
+                  "title": "Поділитися досвідом пошуку перших клієнтів"
+                },
+                {
+                  "id": "projects.customers.help.questions",
+                  "title": "Допомогти скласти запитання для розуміння потреб"
+                },
+                {
+                  "id": "projects.customers.help.rehearse",
+                  "title": "Потренувати розповідь про свою роботу"
+                },
+                {
+                  "id": "projects.customers.help.feedback",
+                  "title": "Дати відгук на опис проєкту без реклами власних послуг"
+                }
               ]
             },
             {
@@ -708,6 +1882,24 @@
               "description": "Потренувати коротку зрозумілу розповідь про проєкт.",
               "keywords": [
                 "пітч"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.presentation.help.pitch",
+                  "title": "Потренувати коротку розповідь про проєкт"
+                },
+                {
+                  "id": "projects.presentation.help.text",
+                  "title": "Дати відгук на зрозумілість опису"
+                },
+                {
+                  "id": "projects.presentation.help.slides",
+                  "title": "Переглянути структуру презентації"
+                },
+                {
+                  "id": "projects.presentation.help.questions",
+                  "title": "Поставити запитання як слухач презентації"
+                }
               ]
             },
             {
@@ -716,6 +1908,24 @@
               "description": "Обговорити ролі, очікування й домовленості.",
               "keywords": [
                 "співзасновник"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.partnership.help.roles",
+                  "title": "Допомогти сформулювати очікувані ролі"
+                },
+                {
+                  "id": "projects.partnership.help.questions",
+                  "title": "Скласти запитання для розмови з партнером"
+                },
+                {
+                  "id": "projects.partnership.help.rehearse",
+                  "title": "Відрепетирувати обговорення домовленостей"
+                },
+                {
+                  "id": "projects.partnership.help.experience",
+                  "title": "Поділитися власним досвідом партнерства"
+                }
               ]
             },
             {
@@ -724,6 +1934,24 @@
               "description": "Поговорити з людиною, якій знайомий досвід відповідальності.",
               "keywords": [
                 "підприємець"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.solo.help.listen",
+                  "title": "Вислухати переживання про відповідальність за справу"
+                },
+                {
+                  "id": "projects.solo.help.experience",
+                  "title": "Обмінятися власним досвідом самостійної роботи"
+                },
+                {
+                  "id": "projects.solo.help.check-in",
+                  "title": "Домовитися про підтримувальні розмови"
+                },
+                {
+                  "id": "projects.solo.help.company",
+                  "title": "Скласти компанію для короткої робочої сесії"
+                }
               ]
             }
           ]
@@ -738,6 +1966,24 @@
               "description": "Допомогти розкласти задум на зрозумілі етапи.",
               "keywords": [
                 "план"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.planning.help.steps",
+                  "title": "Разом розкласти задум на етапи"
+                },
+                {
+                  "id": "projects.planning.help.first-result",
+                  "title": "Допомогти визначити найближчий результат"
+                },
+                {
+                  "id": "projects.planning.help.tasks",
+                  "title": "Упорядкувати список завдань"
+                },
+                {
+                  "id": "projects.planning.help.feedback",
+                  "title": "Дати відгук на реалістичність плану"
+                }
               ]
             },
             {
@@ -747,6 +1993,24 @@
               "keywords": [
                 "глухий",
                 "кут"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.blocked.help.listen",
+                  "title": "Вислухати, на чому проєкт зупинився"
+                },
+                {
+                  "id": "projects.blocked.help.barriers",
+                  "title": "Разом перелічити конкретні перешкоди"
+                },
+                {
+                  "id": "projects.blocked.help.next-step",
+                  "title": "Обговорити найменший можливий наступний крок"
+                },
+                {
+                  "id": "projects.blocked.help.fresh-view",
+                  "title": "Дати свіжий погляд на обраний фрагмент"
+                }
               ]
             },
             {
@@ -755,6 +2019,24 @@
               "description": "Дати конкретний доброзичливий відгук на роботу.",
               "keywords": [
                 "тестування"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.project-feedback.help.try",
+                  "title": "Спробувати відкриту демонстрацію проєкту"
+                },
+                {
+                  "id": "projects.project-feedback.help.clarity",
+                  "title": "Дати відгук на зрозумілість результату"
+                },
+                {
+                  "id": "projects.project-feedback.help.questions",
+                  "title": "Поставити уточнювальні запитання до роботи"
+                },
+                {
+                  "id": "projects.project-feedback.help.priorities",
+                  "title": "Допомогти впорядкувати зібрані зауваження"
+                }
               ]
             },
             {
@@ -763,6 +2045,24 @@
               "description": "Поговорити про завершення, паузу чи зміну напряму.",
               "keywords": [
                 "закрити"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.finish-project.help.listen",
+                  "title": "Вислухати сумніви щодо завершення проєкту"
+                },
+                {
+                  "id": "projects.finish-project.help.summary",
+                  "title": "Разом підбити підсумки зробленого"
+                },
+                {
+                  "id": "projects.finish-project.help.options",
+                  "title": "Обговорити паузу, завершення чи зміну напряму"
+                },
+                {
+                  "id": "projects.finish-project.help.experience",
+                  "title": "Поділитися власним досвідом закриття проєкту"
+                }
               ]
             }
           ]
@@ -784,6 +2084,24 @@
               "description": "Знайти співрозмовника для практики у погодженому форматі.",
               "keywords": [
                 "english"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.english.help.conversation",
+                  "title": "Провести розмовну практику англійської"
+                },
+                {
+                  "id": "learning.english.help.interview",
+                  "title": "Потренувати співбесіду англійською"
+                },
+                {
+                  "id": "learning.english.help.pronunciation",
+                  "title": "Дати доброзичливий відгук на вимову"
+                },
+                {
+                  "id": "learning.english.help.text",
+                  "title": "Переглянути короткий навчальний текст англійською"
+                }
               ]
             },
             {
@@ -793,6 +2111,24 @@
               "keywords": [
                 "українська",
                 "мова"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.ukrainian.help.conversation",
+                  "title": "Попрактикувати повсякденну українську"
+                },
+                {
+                  "id": "learning.ukrainian.help.switch",
+                  "title": "Підтримати перехід на українську в розмові"
+                },
+                {
+                  "id": "learning.ukrainian.help.pronunciation",
+                  "title": "Дати доброзичливий відгук на вимову"
+                },
+                {
+                  "id": "learning.ukrainian.help.text",
+                  "title": "Переглянути короткий текст українською"
+                }
               ]
             },
             {
@@ -803,6 +2139,24 @@
                 "польська",
                 "німецька",
                 "французька"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.other-language.help.conversation",
+                  "title": "Попрактикувати розмову обраною мовою"
+                },
+                {
+                  "id": "learning.other-language.help.everyday",
+                  "title": "Відрепетирувати повсякденну ситуацію обраною мовою"
+                },
+                {
+                  "id": "learning.other-language.help.read",
+                  "title": "Разом прочитати короткий навчальний текст"
+                },
+                {
+                  "id": "learning.other-language.help.writing",
+                  "title": "Дати відгук на коротке навчальне повідомлення"
+                }
               ]
             },
             {
@@ -811,6 +2165,24 @@
               "description": "Обмінятися досвідом посильного навчального ритму.",
               "keywords": [
                 "словник"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.language-habit.help.routine",
+                  "title": "Обговорити посильний ритм мовної практики"
+                },
+                {
+                  "id": "learning.language-habit.help.partner",
+                  "title": "Домовитися про регулярні розмовні зустрічі"
+                },
+                {
+                  "id": "learning.language-habit.help.experience",
+                  "title": "Поділитися власними прийомами запам’ятовування слів"
+                },
+                {
+                  "id": "learning.language-habit.help.check-in",
+                  "title": "Підтримати повернення до практики після перерви"
+                }
               ]
             }
           ]
@@ -826,6 +2198,24 @@
               "keywords": [
                 "нмт",
                 "зно"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.exam.help.plan",
+                  "title": "Допомогти скласти посильний план підготовки"
+                },
+                {
+                  "id": "learning.exam.help.oral-practice",
+                  "title": "Потренувати усну відповідь на знайому тему"
+                },
+                {
+                  "id": "learning.exam.help.questions",
+                  "title": "Разом розібрати навчальні запитання"
+                },
+                {
+                  "id": "learning.exam.help.company",
+                  "title": "Скласти компанію для навчальної сесії"
+                }
               ]
             },
             {
@@ -834,6 +2224,24 @@
               "description": "Поділитися досвідом навчання й нового оточення.",
               "keywords": [
                 "університет"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.student.help.experience",
+                  "title": "Поділитися власним досвідом студентського життя"
+                },
+                {
+                  "id": "learning.student.help.routine",
+                  "title": "Обговорити організацію навчального тижня"
+                },
+                {
+                  "id": "learning.student.help.contact",
+                  "title": "Потренувати знайомство з новими одногрупниками"
+                },
+                {
+                  "id": "learning.student.help.questions",
+                  "title": "Допомогти сформулювати запитання до навчального закладу"
+                }
               ]
             },
             {
@@ -842,6 +2250,24 @@
               "description": "Знайти навчального партнера або обговорити свій план.",
               "keywords": [
                 "самоосвіта"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.self-study.help.plan",
+                  "title": "Дати відгук на особистий план навчання"
+                },
+                {
+                  "id": "learning.self-study.help.partner",
+                  "title": "Побути партнером для спільного навчання"
+                },
+                {
+                  "id": "learning.self-study.help.explain",
+                  "title": "Пояснити знайому навчальну тему"
+                },
+                {
+                  "id": "learning.self-study.help.resources",
+                  "title": "Поділитися відкритими безоплатними матеріалами"
+                }
               ]
             },
             {
@@ -851,6 +2277,24 @@
               "keywords": [
                 "доросле",
                 "навчання"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.study-pause.help.experience",
+                  "title": "Поділитися досвідом навчання після перерви"
+                },
+                {
+                  "id": "learning.study-pause.help.first-step",
+                  "title": "Допомогти обрати перше невелике завдання"
+                },
+                {
+                  "id": "learning.study-pause.help.routine",
+                  "title": "Обговорити зручний навчальний ритм"
+                },
+                {
+                  "id": "learning.study-pause.help.company",
+                  "title": "Побути поруч під час першої навчальної сесії"
+                }
               ]
             }
           ]
@@ -866,6 +2310,24 @@
               "keywords": [
                 "комп’ютер",
                 "смартфон"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.digital.help.phone",
+                  "title": "Пояснити базові налаштування телефона"
+                },
+                {
+                  "id": "learning.digital.help.app",
+                  "title": "Показати користування знайомим застосунком"
+                },
+                {
+                  "id": "learning.digital.help.files",
+                  "title": "Пояснити організацію файлів і папок"
+                },
+                {
+                  "id": "learning.digital.help.video-call",
+                  "title": "Допомогти освоїти відеодзвінок"
+                }
               ]
             },
             {
@@ -875,6 +2337,24 @@
               "keywords": [
                 "код",
                 "it"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.coding.help.exercise",
+                  "title": "Разом розібрати навчальну задачу"
+                },
+                {
+                  "id": "learning.coding.help.explain",
+                  "title": "Пояснити знайоме поняття програмування"
+                },
+                {
+                  "id": "learning.coding.help.code-review",
+                  "title": "Дати відгук на невеликий навчальний код"
+                },
+                {
+                  "id": "learning.coding.help.setup",
+                  "title": "Допомогти налаштувати середовище для навчання"
+                }
               ]
             },
             {
@@ -883,6 +2363,24 @@
               "description": "Потренувати короткий виступ і отримати доброзичливий відгук.",
               "keywords": [
                 "презентація"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.speaking.help.rehearse",
+                  "title": "Послухати пробний виступ"
+                },
+                {
+                  "id": "learning.speaking.help.structure",
+                  "title": "Дати відгук на структуру виступу"
+                },
+                {
+                  "id": "learning.speaking.help.questions",
+                  "title": "Потренувати відповіді на запитання аудиторії"
+                },
+                {
+                  "id": "learning.speaking.help.slides",
+                  "title": "Переглянути зрозумілість слайдів"
+                }
               ]
             },
             {
@@ -891,6 +2389,24 @@
               "description": "Обговорити інтереси й досвід навчання різними способами.",
               "keywords": [
                 "курси"
+              ],
+              "supportOptions": [
+                {
+                  "id": "learning.learning-choice.help.criteria",
+                  "title": "Допомогти визначити особисті критерії навчання"
+                },
+                {
+                  "id": "learning.learning-choice.help.experience",
+                  "title": "Поділитися власним досвідом освоєння навички"
+                },
+                {
+                  "id": "learning.learning-choice.help.free-resources",
+                  "title": "Разом знайти відкриті безоплатні матеріали"
+                },
+                {
+                  "id": "learning.learning-choice.help.try",
+                  "title": "Обговорити невелику ознайомчу вправу"
+                }
               ]
             }
           ]
@@ -912,6 +2428,24 @@
               "description": "Обмінятися досвідом реалістичного планування.",
               "keywords": [
                 "тайм-менеджмент"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.time.help.plan",
+                  "title": "Разом скласти реалістичний план дня"
+                },
+                {
+                  "id": "daily.time.help.tasks",
+                  "title": "Допомогти оцінити обсяг власних справ"
+                },
+                {
+                  "id": "daily.time.help.buffer",
+                  "title": "Обговорити місце для перерв і непередбаченого"
+                },
+                {
+                  "id": "daily.time.help.experience",
+                  "title": "Поділитися власним досвідом планування"
+                }
               ]
             },
             {
@@ -920,6 +2454,24 @@
               "description": "Поговорити про те, що важливо саме зараз.",
               "keywords": [
                 "задачі"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.priorities.help.list",
+                  "title": "Разом упорядкувати список справ"
+                },
+                {
+                  "id": "daily.priorities.help.criteria",
+                  "title": "Допомогти визначити особисті критерії важливості"
+                },
+                {
+                  "id": "daily.priorities.help.one-step",
+                  "title": "Обрати одну посильну справу на сьогодні"
+                },
+                {
+                  "id": "daily.priorities.help.experience",
+                  "title": "Поділитися досвідом зменшення перевантаження"
+                }
               ]
             },
             {
@@ -928,6 +2480,24 @@
               "description": "Підтримати просту звичку без жорстких вимог.",
               "keywords": [
                 "рутина"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.routine.help.small-habit",
+                  "title": "Допомогти обрати маленьку щоденну дію"
+                },
+                {
+                  "id": "daily.routine.help.routine",
+                  "title": "Обговорити зручне місце звички в розкладі"
+                },
+                {
+                  "id": "daily.routine.help.check-in",
+                  "title": "Домовитися про доброзичливу підтримку регулярності"
+                },
+                {
+                  "id": "daily.routine.help.restart",
+                  "title": "Підтримати повернення до звички після перерви"
+                }
               ]
             },
             {
@@ -936,6 +2506,24 @@
               "description": "Побути партнером для погодженого першого кроку.",
               "keywords": [
                 "прокрастинація"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.start-task.help.first-step",
+                  "title": "Разом визначити найменший перший крок"
+                },
+                {
+                  "id": "daily.start-task.help.company",
+                  "title": "Побути поруч під час початку справи"
+                },
+                {
+                  "id": "daily.start-task.help.break-down",
+                  "title": "Розділити відкладену справу на прості дії"
+                },
+                {
+                  "id": "daily.start-task.help.check-in",
+                  "title": "Домовитися про короткий контакт після спроби"
+                }
               ]
             }
           ]
@@ -950,6 +2538,24 @@
               "description": "Поділитися досвідом маленьких посильних змін у просторі.",
               "keywords": [
                 "прибирання"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.order.help.small-area",
+                  "title": "Допомогти обрати невелику ділянку для порядку"
+                },
+                {
+                  "id": "daily.order.help.plan",
+                  "title": "Разом скласти посильний план прибирання"
+                },
+                {
+                  "id": "daily.order.help.experience",
+                  "title": "Поділитися досвідом організації домашніх речей"
+                },
+                {
+                  "id": "daily.order.help.company",
+                  "title": "Скласти компанію онлайн під час власного прибирання"
+                }
               ]
             },
             {
@@ -958,6 +2564,24 @@
               "description": "Обговорити побутові рішення й досвід облаштування.",
               "keywords": [
                 "оренда"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.settle.help.list",
+                  "title": "Допомогти скласти список першочергових побутових справ"
+                },
+                {
+                  "id": "daily.settle.help.space",
+                  "title": "Обговорити зручне розміщення наявних речей"
+                },
+                {
+                  "id": "daily.settle.help.experience",
+                  "title": "Поділитися досвідом облаштування нового житла"
+                },
+                {
+                  "id": "daily.settle.help.routine",
+                  "title": "Разом продумати простий домашній ритм"
+                }
               ]
             },
             {
@@ -967,6 +2591,24 @@
               "keywords": [
                 "готувати",
                 "їжа"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.cooking.help.recipe",
+                  "title": "Поділитися знайомим простим рецептом"
+                },
+                {
+                  "id": "daily.cooking.help.cook-together",
+                  "title": "Приготувати просту страву разом у погодженому форматі"
+                },
+                {
+                  "id": "daily.cooking.help.plan",
+                  "title": "Обговорити побутовий план страв на кілька днів"
+                },
+                {
+                  "id": "daily.cooking.help.ingredients",
+                  "title": "Допомогти скласти список продуктів для обраної страви"
+                }
               ]
             },
             {
@@ -975,6 +2617,24 @@
               "description": "Підготувати домовленості про життя в одному просторі.",
               "keywords": [
                 "співмешканці"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.shared-home.help.agreements",
+                  "title": "Допомогти сформулювати побутові домовленості"
+                },
+                {
+                  "id": "daily.shared-home.help.rehearse",
+                  "title": "Потренувати розмову із сусідом"
+                },
+                {
+                  "id": "daily.shared-home.help.schedule",
+                  "title": "Разом скласти чернетку графіка спільних справ"
+                },
+                {
+                  "id": "daily.shared-home.help.experience",
+                  "title": "Поділитися власним досвідом спільного проживання"
+                }
               ]
             }
           ]
@@ -989,6 +2649,24 @@
               "description": "Разом розкласти особистий список на невеликі кроки.",
               "keywords": [
                 "папери"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.organize.help.list",
+                  "title": "Разом зібрати накопичені справи в один список"
+                },
+                {
+                  "id": "daily.organize.help.groups",
+                  "title": "Допомогти розділити справи за видами"
+                },
+                {
+                  "id": "daily.organize.help.next-step",
+                  "title": "Визначити посильну дію для кожної справи"
+                },
+                {
+                  "id": "daily.organize.help.company",
+                  "title": "Побути поруч під час упорядкування власних паперів"
+                }
               ]
             },
             {
@@ -997,6 +2675,24 @@
               "description": "Зібрати власні запитання й відрепетирувати розмову.",
               "keywords": [
                 "візит"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.appointments.help.questions",
+                  "title": "Допомогти скласти запитання до зустрічі"
+                },
+                {
+                  "id": "daily.appointments.help.rehearse",
+                  "title": "Відрепетирувати важливу розмову"
+                },
+                {
+                  "id": "daily.appointments.help.list",
+                  "title": "Разом скласти список того, що потрібно підготувати"
+                },
+                {
+                  "id": "daily.appointments.help.summary",
+                  "title": "Допомогти коротко сформулювати мету зустрічі"
+                }
               ]
             },
             {
@@ -1006,6 +2702,24 @@
               "keywords": [
                 "екран",
                 "соцмережі"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.offline.help.experience",
+                  "title": "Поділитися досвідом зменшення часу в телефоні"
+                },
+                {
+                  "id": "daily.offline.help.settings",
+                  "title": "Пояснити налаштування сповіщень і екранного часу"
+                },
+                {
+                  "id": "daily.offline.help.alternatives",
+                  "title": "Разом обрати просту справу без екрана"
+                },
+                {
+                  "id": "daily.offline.help.check-in",
+                  "title": "Домовитися про підтримку особистої спроби"
+                }
               ]
             },
             {
@@ -1016,6 +2730,24 @@
                 "body",
                 "doubling",
                 "компанія"
+              ],
+              "supportOptions": [
+                {
+                  "id": "daily.body-double.help.online",
+                  "title": "Провести коротку спільну онлайн-сесію для власних справ"
+                },
+                {
+                  "id": "daily.body-double.help.offline",
+                  "title": "Домовитися про паралельну роботу в спільному місці"
+                },
+                {
+                  "id": "daily.body-double.help.start",
+                  "title": "Разом озвучити свої завдання на сесію"
+                },
+                {
+                  "id": "daily.body-double.help.finish",
+                  "title": "Підбити підсумки зробленого без оцінювання"
+                }
               ]
             }
           ]
@@ -1037,6 +2769,24 @@
               "description": "Поділитися досвідом обліку власних витрат.",
               "keywords": [
                 "бюджет"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.spending.help.categories",
+                  "title": "Допомогти згрупувати власні побутові витрати"
+                },
+                {
+                  "id": "money.spending.help.template",
+                  "title": "Пояснити простий шаблон обліку витрат"
+                },
+                {
+                  "id": "money.spending.help.experience",
+                  "title": "Поділитися досвідом ведення особистого бюджету"
+                },
+                {
+                  "id": "money.spending.help.routine",
+                  "title": "Обговорити зручний ритм запису витрат"
+                }
               ]
             },
             {
@@ -1045,6 +2795,24 @@
               "description": "Обговорити особисті способи регулярного заощадження.",
               "keywords": [
                 "заощадження"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.saving.help.experience",
+                  "title": "Поділитися власним досвідом регулярного заощадження"
+                },
+                {
+                  "id": "money.saving.help.goal",
+                  "title": "Допомогти сформулювати особисту побутову мету"
+                },
+                {
+                  "id": "money.saving.help.routine",
+                  "title": "Обговорити посильну звичку відкладати гроші"
+                },
+                {
+                  "id": "money.saving.help.check-in",
+                  "title": "Домовитися про підтримку обраної звички"
+                }
               ]
             },
             {
@@ -1053,6 +2821,24 @@
               "description": "Допомогти сформулювати свої критерії й запитання.",
               "keywords": [
                 "покупка"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.purchase.help.criteria",
+                  "title": "Допомогти скласти свої критерії покупки"
+                },
+                {
+                  "id": "money.purchase.help.questions",
+                  "title": "Скласти запитання до рішення про покупку"
+                },
+                {
+                  "id": "money.purchase.help.options",
+                  "title": "Разом упорядкувати власний список варіантів"
+                },
+                {
+                  "id": "money.purchase.help.experience",
+                  "title": "Поділитися досвідом обдуманої покупки без реклами"
+                }
               ]
             },
             {
@@ -1062,6 +2848,24 @@
               "keywords": [
                 "сімейний",
                 "бюджет"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.shared-budget.help.list",
+                  "title": "Разом описати спільні побутові витрати"
+                },
+                {
+                  "id": "money.shared-budget.help.rehearse",
+                  "title": "Потренувати розмову про розподіл витрат"
+                },
+                {
+                  "id": "money.shared-budget.help.agreements",
+                  "title": "Допомогти сформулювати бажану домовленість"
+                },
+                {
+                  "id": "money.shared-budget.help.experience",
+                  "title": "Обмінятися досвідом спільного бюджету"
+                }
               ]
             }
           ]
@@ -1077,6 +2881,24 @@
               "keywords": [
                 "фінансова",
                 "тривога"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.money-stress.help.listen",
+                  "title": "Вислухати переживання через гроші"
+                },
+                {
+                  "id": "money.money-stress.help.tasks",
+                  "title": "Разом упорядкувати найближчі побутові питання"
+                },
+                {
+                  "id": "money.money-stress.help.help-request",
+                  "title": "Допомогти сформулювати прохання про підтримку"
+                },
+                {
+                  "id": "money.money-stress.help.experience",
+                  "title": "Поділитися власним досвідом фінансової невизначеності"
+                }
               ]
             },
             {
@@ -1085,6 +2907,24 @@
               "description": "Потренувати розмову про оплату, витрати чи очікування.",
               "keywords": [
                 "зарплата"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.money-talk.help.rehearse",
+                  "title": "Потренувати розмову про побутові витрати"
+                },
+                {
+                  "id": "money.money-talk.help.request",
+                  "title": "Допомогти сформулювати свої очікування щодо оплати"
+                },
+                {
+                  "id": "money.money-talk.help.message",
+                  "title": "Переглянути чернетку повідомлення про гроші"
+                },
+                {
+                  "id": "money.money-talk.help.boundaries",
+                  "title": "Підготувати слова про власні фінансові межі"
+                }
               ]
             },
             {
@@ -1093,6 +2933,24 @@
               "description": "Поговорити про власні потреби без змагання з іншими.",
               "keywords": [
                 "дохід"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.comparison-money.help.listen",
+                  "title": "Вислухати переживання через порівняння доходів"
+                },
+                {
+                  "id": "money.comparison-money.help.needs",
+                  "title": "Разом назвати власні потреби й пріоритети"
+                },
+                {
+                  "id": "money.comparison-money.help.experience",
+                  "title": "Поділитися досвідом відмови від фінансового змагання"
+                },
+                {
+                  "id": "money.comparison-money.help.conversation",
+                  "title": "Поговорити про особистий достатній рівень побуту"
+                }
               ]
             },
             {
@@ -1101,6 +2959,24 @@
               "description": "Сформулювати конкретний посильний запит до близьких.",
               "keywords": [
                 "підтримка"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.help-money.help.request",
+                  "title": "Допомогти сформулювати прохання про негрошову допомогу"
+                },
+                {
+                  "id": "money.help-money.help.scope",
+                  "title": "Уточнити конкретний обсяг побутової підтримки"
+                },
+                {
+                  "id": "money.help-money.help.message",
+                  "title": "Переглянути чернетку звернення до близьких"
+                },
+                {
+                  "id": "money.help-money.help.rehearse",
+                  "title": "Потренувати розмову про потрібну допомогу"
+                }
               ]
             }
           ]
@@ -1115,6 +2991,24 @@
               "description": "Уточнити власні критерії й побачити можливі варіанти.",
               "keywords": [
                 "вибір"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.options.help.criteria",
+                  "title": "Допомогти записати власні критерії вибору"
+                },
+                {
+                  "id": "money.options.help.comparison",
+                  "title": "Разом упорядкувати плюси й мінуси варіантів"
+                },
+                {
+                  "id": "money.options.help.questions",
+                  "title": "Скласти запитання, на які бракує відповіді"
+                },
+                {
+                  "id": "money.options.help.listen",
+                  "title": "Побути співрозмовником без нав’язування рішення"
+                }
               ]
             },
             {
@@ -1123,6 +3017,24 @@
               "description": "Поговорити про факти, сумніви й потрібну інформацію.",
               "keywords": [
                 "рішення"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.big-decision.help.facts",
+                  "title": "Разом відокремити факти від припущень"
+                },
+                {
+                  "id": "money.big-decision.help.questions",
+                  "title": "Допомогти скласти список потрібної інформації"
+                },
+                {
+                  "id": "money.big-decision.help.experience",
+                  "title": "Поділитися власним досвідом підготовки важливого рішення"
+                },
+                {
+                  "id": "money.big-decision.help.conversation",
+                  "title": "Обговорити очікування й сумніви щодо вибору"
+                }
               ]
             },
             {
@@ -1131,6 +3043,24 @@
               "description": "Обмінятися досвідом організації своїх підписок і платежів.",
               "keywords": [
                 "підписки"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.subscriptions.help.list",
+                  "title": "Допомогти скласти власний список регулярних платежів"
+                },
+                {
+                  "id": "money.subscriptions.help.calendar",
+                  "title": "Пояснити простий календар нагадувань"
+                },
+                {
+                  "id": "money.subscriptions.help.experience",
+                  "title": "Поділитися досвідом організації побутових платежів"
+                },
+                {
+                  "id": "money.subscriptions.help.review",
+                  "title": "Разом переглянути власні пріоритети витрат"
+                }
               ]
             },
             {
@@ -1140,6 +3070,24 @@
               "keywords": [
                 "нестабільний",
                 "дохід"
+              ],
+              "supportOptions": [
+                {
+                  "id": "money.money-change.help.listen",
+                  "title": "Вислухати переживання через зміну доходу"
+                },
+                {
+                  "id": "money.money-change.help.experience",
+                  "title": "Поділитися власним досвідом побутової адаптації"
+                },
+                {
+                  "id": "money.money-change.help.priorities",
+                  "title": "Обговорити найближчі особисті пріоритети"
+                },
+                {
+                  "id": "money.money-change.help.routine",
+                  "title": "Допомогти впорядкувати новий ритм обліку витрат"
+                }
               ]
             }
           ]
@@ -1161,6 +3109,24 @@
               "description": "Поговорити про власне навантаження й доступний відпочинок.",
               "keywords": [
                 "втомився"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.tired.help.listen",
+                  "title": "Вислухати про втому й повсякденне навантаження"
+                },
+                {
+                  "id": "wellbeing.tired.help.pause",
+                  "title": "Обговорити посильну побутову паузу"
+                },
+                {
+                  "id": "wellbeing.tired.help.tasks",
+                  "title": "Разом визначити справи, які можна відкласти"
+                },
+                {
+                  "id": "wellbeing.tired.help.experience",
+                  "title": "Поділитися власним досвідом відпочинку"
+                }
               ]
             },
             {
@@ -1169,6 +3135,24 @@
               "description": "Обмінятися досвідом зручного вечірнього й ранкового ритму.",
               "keywords": [
                 "сон"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.sleep.help.experience",
+                  "title": "Поділитися досвідом зручного вечірнього ритму"
+                },
+                {
+                  "id": "wellbeing.sleep.help.routine",
+                  "title": "Обговорити власні ранкові й вечірні звички"
+                },
+                {
+                  "id": "wellbeing.sleep.help.schedule",
+                  "title": "Допомогти впорядкувати особистий побутовий розклад"
+                },
+                {
+                  "id": "wellbeing.sleep.help.check-in",
+                  "title": "Підтримати обрану людиною зміну щоденного ритму"
+                }
               ]
             },
             {
@@ -1177,6 +3161,24 @@
               "description": "Підтримати право на паузу й посильні очікування.",
               "keywords": [
                 "відпочивати"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.rest-guilt.help.listen",
+                  "title": "Вислухати переживання щодо відпочинку"
+                },
+                {
+                  "id": "wellbeing.rest-guilt.help.expectations",
+                  "title": "Обговорити посильні очікування від себе"
+                },
+                {
+                  "id": "wellbeing.rest-guilt.help.plan",
+                  "title": "Разом знайти місце для невеликої паузи"
+                },
+                {
+                  "id": "wellbeing.rest-guilt.help.experience",
+                  "title": "Поділитися досвідом відпочинку без змагання"
+                }
               ]
             },
             {
@@ -1187,6 +3189,24 @@
                 "work",
                 "life",
                 "balance"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.balance.help.schedule",
+                  "title": "Разом подивитися на робочий і вільний час"
+                },
+                {
+                  "id": "wellbeing.balance.help.boundaries",
+                  "title": "Підготувати розмову про особисті межі"
+                },
+                {
+                  "id": "wellbeing.balance.help.experience",
+                  "title": "Поділитися власним досвідом відпочинку після роботи"
+                },
+                {
+                  "id": "wellbeing.balance.help.small-change",
+                  "title": "Обговорити одну посильну зміну побутового ритму"
+                }
               ]
             }
           ]
@@ -1203,6 +3223,24 @@
                 "прогулянка",
                 "фізична",
                 "активність"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.movement.help.walk",
+                  "title": "Скласти компанію на погодженій прогулянці"
+                },
+                {
+                  "id": "wellbeing.movement.help.own-pace",
+                  "title": "Домовитися про спільну активність у власному темпі"
+                },
+                {
+                  "id": "wellbeing.movement.help.routine",
+                  "title": "Обговорити зручний час для обраного руху"
+                },
+                {
+                  "id": "wellbeing.movement.help.experience",
+                  "title": "Поділитися власним досвідом регулярних прогулянок"
+                }
               ]
             },
             {
@@ -1211,6 +3249,24 @@
               "description": "Поділитися побутовим досвідом організації щоденних прийомів їжі.",
               "keywords": [
                 "харчування"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.meals.help.routine",
+                  "title": "Обмінятися побутовим досвідом регулярних прийомів їжі"
+                },
+                {
+                  "id": "wellbeing.meals.help.simple-meals",
+                  "title": "Поділитися простими знайомими стравами"
+                },
+                {
+                  "id": "wellbeing.meals.help.planning",
+                  "title": "Допомогти впорядкувати побутову підготовку їжі"
+                },
+                {
+                  "id": "wellbeing.meals.help.company",
+                  "title": "Скласти компанію під час погодженого приготування"
+                }
               ]
             },
             {
@@ -1219,6 +3275,24 @@
               "description": "Поговорити про маленькі доступні побутові дії.",
               "keywords": [
                 "догляд"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.self-care.help.listen",
+                  "title": "Вислухати про складний день"
+                },
+                {
+                  "id": "wellbeing.self-care.help.small-action",
+                  "title": "Разом обрати доступну побутову дію для себе"
+                },
+                {
+                  "id": "wellbeing.self-care.help.help-request",
+                  "title": "Допомогти попросити близьких про підтримку"
+                },
+                {
+                  "id": "wellbeing.self-care.help.company",
+                  "title": "Побути поруч у короткій дружній розмові"
+                }
               ]
             },
             {
@@ -1227,6 +3301,24 @@
               "description": "Бути співрозмовником без оцінювання зовнішності.",
               "keywords": [
                 "тілесність"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.body-respect.help.listen",
+                  "title": "Вислухати переживання без оцінювання зовнішності"
+                },
+                {
+                  "id": "wellbeing.body-respect.help.boundaries",
+                  "title": "Підготувати відповідь на небажані коментарі про тіло"
+                },
+                {
+                  "id": "wellbeing.body-respect.help.experience",
+                  "title": "Поділитися власним досвідом дбайливого ставлення до себе"
+                },
+                {
+                  "id": "wellbeing.body-respect.help.conversation",
+                  "title": "Побути співрозмовником без порад про зміну зовнішності"
+                }
               ]
             }
           ]
@@ -1242,6 +3334,24 @@
               "keywords": [
                 "хронічна",
                 "хвороба"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.chronic.help.listen",
+                  "title": "Вислухати досвід повсякденності із захворюванням"
+                },
+                {
+                  "id": "wellbeing.chronic.help.experience",
+                  "title": "Поділитися власним побутовим досвідом життя з хворобою"
+                },
+                {
+                  "id": "wellbeing.chronic.help.help-request",
+                  "title": "Допомогти сформулювати потрібну побутову підтримку"
+                },
+                {
+                  "id": "wellbeing.chronic.help.routine",
+                  "title": "Обговорити посильні щоденні домовленості"
+                }
               ]
             },
             {
@@ -1250,6 +3360,24 @@
               "description": "Поговорити про посильні побутові кроки після складного періоду.",
               "keywords": [
                 "відновлення"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.recovery.help.listen",
+                  "title": "Вислухати переживання про повернення до звичного ритму"
+                },
+                {
+                  "id": "wellbeing.recovery.help.tasks",
+                  "title": "Разом упорядкувати посильні побутові справи"
+                },
+                {
+                  "id": "wellbeing.recovery.help.experience",
+                  "title": "Поділитися власним досвідом побутового відновлення"
+                },
+                {
+                  "id": "wellbeing.recovery.help.company",
+                  "title": "Побути поруч під час обраної повсякденної дії"
+                }
               ]
             },
             {
@@ -1258,6 +3386,24 @@
               "description": "Допомогти записати власні питання до майбутньої консультації.",
               "keywords": [
                 "лікар"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.doctor-talk.help.questions",
+                  "title": "Допомогти записати власні запитання до фахівця"
+                },
+                {
+                  "id": "wellbeing.doctor-talk.help.notes",
+                  "title": "Упорядкувати підготовлені людиною нотатки до зустрічі"
+                },
+                {
+                  "id": "wellbeing.doctor-talk.help.rehearse",
+                  "title": "Потренувати зрозумілий виклад своїх запитань"
+                },
+                {
+                  "id": "wellbeing.doctor-talk.help.list",
+                  "title": "Разом скласти список того, що потрібно взяти на зустріч"
+                }
               ]
             },
             {
@@ -1266,6 +3412,24 @@
               "description": "Вислухати й побути поруч у погодженому форматі.",
               "keywords": [
                 "лікування"
+              ],
+              "supportOptions": [
+                {
+                  "id": "wellbeing.support-health.help.listen",
+                  "title": "Вислухати переживання під час лікування"
+                },
+                {
+                  "id": "wellbeing.support-health.help.company",
+                  "title": "Побути співрозмовником у погоджений час"
+                },
+                {
+                  "id": "wellbeing.support-health.help.help-request",
+                  "title": "Допомогти попросити близьких про побутову допомогу"
+                },
+                {
+                  "id": "wellbeing.support-health.help.experience",
+                  "title": "Обмінятися власним досвідом підтримання контакту"
+                }
               ]
             }
           ]
@@ -1287,6 +3451,24 @@
               "description": "Отримати конкретний доброзичливий відгук на власний текст.",
               "keywords": [
                 "письмо"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.writing.help.read",
+                  "title": "Прочитати короткий текст і поділитися враженнями"
+                },
+                {
+                  "id": "creative.writing.help.clarity",
+                  "title": "Дати відгук на зрозумілість тексту"
+                },
+                {
+                  "id": "creative.writing.help.structure",
+                  "title": "Обговорити структуру власного тексту"
+                },
+                {
+                  "id": "creative.writing.help.company",
+                  "title": "Домовитися про спільну сесію письма"
+                }
               ]
             },
             {
@@ -1295,6 +3477,24 @@
               "description": "Знайти партнера для практики або обговорення роботи.",
               "keywords": [
                 "дизайн"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.art.help.feedback",
+                  "title": "Дати доброзичливий відгук на візуальну роботу"
+                },
+                {
+                  "id": "creative.art.help.practice",
+                  "title": "Скласти компанію для творчої практики"
+                },
+                {
+                  "id": "creative.art.help.technique",
+                  "title": "Показати знайомий прийом у межах власного досвіду"
+                },
+                {
+                  "id": "creative.art.help.ideas",
+                  "title": "Обмінятися ідеями для невеликої творчої спроби"
+                }
               ]
             },
             {
@@ -1303,6 +3503,24 @@
               "description": "Обмінятися досвідом творчої практики у погодженому форматі.",
               "keywords": [
                 "інструмент"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.music.help.listen",
+                  "title": "Послухати виконання й поділитися враженнями"
+                },
+                {
+                  "id": "creative.music.help.practice",
+                  "title": "Скласти компанію для погодженої музичної практики"
+                },
+                {
+                  "id": "creative.music.help.experience",
+                  "title": "Поділитися власним досвідом занять музикою"
+                },
+                {
+                  "id": "creative.music.help.small-piece",
+                  "title": "Разом попрацювати над невеликим творчим фрагментом"
+                }
               ]
             },
             {
@@ -1311,6 +3529,24 @@
               "description": "Поділитися навичкою й ідеями для власної роботи.",
               "keywords": [
                 "хендмейд"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.craft.help.show",
+                  "title": "Показати знайомий прийом ручної роботи"
+                },
+                {
+                  "id": "creative.craft.help.ideas",
+                  "title": "Обговорити ідею невеликого виробу"
+                },
+                {
+                  "id": "creative.craft.help.feedback",
+                  "title": "Дати доброзичливий відгук на власну роботу"
+                },
+                {
+                  "id": "creative.craft.help.company",
+                  "title": "Скласти компанію для творчої сесії"
+                }
               ]
             }
           ]
@@ -1326,6 +3562,24 @@
               "keywords": [
                 "страх",
                 "оцінки"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.show-work.help.feedback",
+                  "title": "Дати відгук перед першою публікацією роботи"
+                },
+                {
+                  "id": "creative.show-work.help.words",
+                  "title": "Допомогти підготувати короткий опис роботи"
+                },
+                {
+                  "id": "creative.show-work.help.rehearse",
+                  "title": "Потренувати презентацію своєї творчості"
+                },
+                {
+                  "id": "creative.show-work.help.support",
+                  "title": "Підтримати погоджений перший показ"
+                }
               ]
             },
             {
@@ -1334,6 +3588,24 @@
               "description": "Поговорити про перешкоди й невеликі можливі спроби.",
               "keywords": [
                 "блок"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.creative-block.help.listen",
+                  "title": "Вислухати труднощі у творчій справі"
+                },
+                {
+                  "id": "creative.creative-block.help.ideas",
+                  "title": "Обмінятися ідеями для маленької спроби"
+                },
+                {
+                  "id": "creative.creative-block.help.company",
+                  "title": "Домовитися про спільний творчий час"
+                },
+                {
+                  "id": "creative.creative-block.help.experience",
+                  "title": "Поділитися власним досвідом повернення до творчості"
+                }
               ]
             },
             {
@@ -1342,6 +3614,24 @@
               "description": "Обговорити посильне завершення без вимоги ідеальності.",
               "keywords": [
                 "ідеально"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.perfection.help.scope",
+                  "title": "Допомогти визначити посильний обсяг роботи"
+                },
+                {
+                  "id": "creative.perfection.help.feedback",
+                  "title": "Дати відгук на вже готовий фрагмент"
+                },
+                {
+                  "id": "creative.perfection.help.finish",
+                  "title": "Підтримати завершення невеликої роботи"
+                },
+                {
+                  "id": "creative.perfection.help.experience",
+                  "title": "Поділитися досвідом творчих спроб без вимоги ідеальності"
+                }
               ]
             },
             {
@@ -1350,6 +3640,24 @@
               "description": "Обговорити творчі інтереси й те, що вже виходить.",
               "keywords": [
                 "самовираження"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.own-style.help.conversation",
+                  "title": "Обговорити творчі інтереси й уподобання"
+                },
+                {
+                  "id": "creative.own-style.help.works",
+                  "title": "Разом подивитися на вже створені роботи"
+                },
+                {
+                  "id": "creative.own-style.help.feedback",
+                  "title": "Поділитися враженнями про помітні особливості роботи"
+                },
+                {
+                  "id": "creative.own-style.help.try",
+                  "title": "Придумати невелику творчу пробу"
+                }
               ]
             }
           ]
@@ -1364,6 +3672,24 @@
               "description": "Поговорити про те, що важливо у власних рішеннях.",
               "keywords": [
                 "цінності"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.values.help.questions",
+                  "title": "Поставити доброзичливі запитання про важливе"
+                },
+                {
+                  "id": "creative.values.help.examples",
+                  "title": "Разом знайти приклади власних цінностей у житті"
+                },
+                {
+                  "id": "creative.values.help.choice",
+                  "title": "Обговорити цінності в конкретному особистому рішенні"
+                },
+                {
+                  "id": "creative.values.help.listen",
+                  "title": "Вислухати без нав’язування своїх переконань"
+                }
               ]
             },
             {
@@ -1373,6 +3699,24 @@
               "keywords": [
                 "сенс",
                 "життя"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.meaning.help.listen",
+                  "title": "Побути співрозмовником у розмові про життєві орієнтири"
+                },
+                {
+                  "id": "creative.meaning.help.experience",
+                  "title": "Поділитися власним досвідом пошуку важливого"
+                },
+                {
+                  "id": "creative.meaning.help.daily",
+                  "title": "Разом помітити значущі повсякденні справи"
+                },
+                {
+                  "id": "creative.meaning.help.questions",
+                  "title": "Допомогти сформулювати запитання до себе"
+                }
               ]
             },
             {
@@ -1381,6 +3725,24 @@
               "description": "Обговорити посильне місце для улюбленої справи.",
               "keywords": [
                 "хобі"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.hobby.help.time",
+                  "title": "Обговорити посильний час для захоплення"
+                },
+                {
+                  "id": "creative.hobby.help.small-step",
+                  "title": "Допомогти обрати невелику творчу дію"
+                },
+                {
+                  "id": "creative.hobby.help.company",
+                  "title": "Скласти компанію для погодженого заняття"
+                },
+                {
+                  "id": "creative.hobby.help.experience",
+                  "title": "Поділитися власним досвідом повернення до хобі"
+                }
               ]
             },
             {
@@ -1390,6 +3752,24 @@
               "keywords": [
                 "мрія",
                 "ціль"
+              ],
+              "supportOptions": [
+                {
+                  "id": "creative.goal.help.clarify",
+                  "title": "Допомогти коротко сформулювати власний задум"
+                },
+                {
+                  "id": "creative.goal.help.small-step",
+                  "title": "Разом визначити невеликий наступний крок"
+                },
+                {
+                  "id": "creative.goal.help.company",
+                  "title": "Побути поруч під час першої спроби"
+                },
+                {
+                  "id": "creative.goal.help.check-in",
+                  "title": "Домовитися про підтримувальну розмову щодо поступу"
+                }
               ]
             }
           ]
@@ -1411,6 +3791,24 @@
               "description": "Поговорити про пошук оточення, де комфортно бути собою.",
               "keywords": [
                 "спільнота"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.community.help.listen",
+                  "title": "Вислухати досвід пошуку свого кола"
+                },
+                {
+                  "id": "community.community.help.interests",
+                  "title": "Разом обговорити близькі інтереси й цінності"
+                },
+                {
+                  "id": "community.community.help.experience",
+                  "title": "Поділитися власним досвідом участі у спільноті"
+                },
+                {
+                  "id": "community.community.help.first-contact",
+                  "title": "Підготувати дружнє звернення до нової групи"
+                }
               ]
             },
             {
@@ -1419,6 +3817,24 @@
               "description": "Обмінятися досвідом знайомств і участі у своєму місті.",
               "keywords": [
                 "сусіди"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.local.help.experience",
+                  "title": "Поділитися досвідом участі у місцевій спільноті"
+                },
+                {
+                  "id": "community.local.help.open-events",
+                  "title": "Обговорити відкриті безоплатні місцеві події"
+                },
+                {
+                  "id": "community.local.help.first-visit",
+                  "title": "Скласти компанію для погодженого першого відвідування"
+                },
+                {
+                  "id": "community.local.help.introduction",
+                  "title": "Потренувати знайомство з місцевими учасниками"
+                }
               ]
             },
             {
@@ -1427,6 +3843,24 @@
               "description": "Обговорити, де й як знаходити близьке за інтересами коло.",
               "keywords": [
                 "клуб"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.interest.help.conversation",
+                  "title": "Обговорити спільне захоплення"
+                },
+                {
+                  "id": "community.interest.help.places",
+                  "title": "Разом знайти відкриті безоплатні групи за інтересами"
+                },
+                {
+                  "id": "community.interest.help.message",
+                  "title": "Допомогти написати дружнє повідомлення до групи"
+                },
+                {
+                  "id": "community.interest.help.company",
+                  "title": "Домовитися про невелику спільну активність"
+                }
               ]
             },
             {
@@ -1435,6 +3869,24 @@
               "description": "Підтримати знайомство й адаптацію в новому оточенні.",
               "keywords": [
                 "група"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.join.help.rehearse",
+                  "title": "Потренувати представлення себе новій групі"
+                },
+                {
+                  "id": "community.join.help.questions",
+                  "title": "Підготувати запитання до учасників"
+                },
+                {
+                  "id": "community.join.help.experience",
+                  "title": "Поділитися досвідом входження в нове оточення"
+                },
+                {
+                  "id": "community.join.help.support",
+                  "title": "Підтримати перший погоджений контакт"
+                }
               ]
             }
           ]
@@ -1449,6 +3901,24 @@
               "description": "Поділитися власним досвідом посильної участі.",
               "keywords": [
                 "волонтер"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.volunteer.help.experience",
+                  "title": "Поділитися власним досвідом волонтерства"
+                },
+                {
+                  "id": "community.volunteer.help.scope",
+                  "title": "Допомогти визначити посильний обсяг участі"
+                },
+                {
+                  "id": "community.volunteer.help.questions",
+                  "title": "Підготувати запитання до волонтерської ініціативи"
+                },
+                {
+                  "id": "community.volunteer.help.first-step",
+                  "title": "Обговорити невеликий перший крок"
+                }
               ]
             },
             {
@@ -1458,6 +3928,24 @@
               "keywords": [
                 "втома",
                 "волонтерів"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.volunteer-load.help.listen",
+                  "title": "Вислухати про навантаження у волонтерстві"
+                },
+                {
+                  "id": "community.volunteer-load.help.boundaries",
+                  "title": "Підготувати слова про межі своєї участі"
+                },
+                {
+                  "id": "community.volunteer-load.help.tasks",
+                  "title": "Обговорити посильний розподіл спільних справ"
+                },
+                {
+                  "id": "community.volunteer-load.help.experience",
+                  "title": "Поділитися власним досвідом паузи й відновлення сил"
+                }
               ]
             },
             {
@@ -1466,6 +3954,24 @@
               "description": "Обмінятися досвідом простих спільних справ.",
               "keywords": [
                 "ініціатива"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.initiative.help.plan",
+                  "title": "Разом скласти простий план ініціативи"
+                },
+                {
+                  "id": "community.initiative.help.roles",
+                  "title": "Допомогти визначити зрозумілі ролі учасників"
+                },
+                {
+                  "id": "community.initiative.help.message",
+                  "title": "Переглянути чернетку запрошення до безоплатної справи"
+                },
+                {
+                  "id": "community.initiative.help.experience",
+                  "title": "Поділитися власним досвідом невеликої спільної дії"
+                }
               ]
             },
             {
@@ -1474,6 +3980,24 @@
               "description": "Підготувати ясні ролі й домовленості для спільної роботи.",
               "keywords": [
                 "координація"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.teamwork.help.agreements",
+                  "title": "Допомогти сформулювати спільні домовленості"
+                },
+                {
+                  "id": "community.teamwork.help.rehearse",
+                  "title": "Потренувати розмову про розподіл ролей"
+                },
+                {
+                  "id": "community.teamwork.help.feedback",
+                  "title": "Дати відгук на зрозумілість спільного плану"
+                },
+                {
+                  "id": "community.teamwork.help.experience",
+                  "title": "Обмінятися власним досвідом командної участі"
+                }
               ]
             }
           ]
@@ -1488,6 +4012,24 @@
               "description": "Домовитися про конкретну тему й обсяг розмови.",
               "keywords": [
                 "менторство"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.share-experience.help.conversation",
+                  "title": "Поділитися власним досвідом обраної теми"
+                },
+                {
+                  "id": "community.share-experience.help.questions",
+                  "title": "Відповісти на погоджені запитання у межах свого досвіду"
+                },
+                {
+                  "id": "community.share-experience.help.example",
+                  "title": "Показати приклад знайомої практичної дії"
+                },
+                {
+                  "id": "community.share-experience.help.feedback",
+                  "title": "Дати доброзичливий відгук на першу спробу"
+                }
               ]
             },
             {
@@ -1496,6 +4038,24 @@
               "description": "Домовитися про посильну спільну активність і формат.",
               "keywords": [
                 "прогулянка"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.walk.help.short",
+                  "title": "Скласти компанію на короткій прогулянці"
+                },
+                {
+                  "id": "community.walk.help.conversation",
+                  "title": "Домовитися про прогулянку з дружньою розмовою"
+                },
+                {
+                  "id": "community.walk.help.familiar-route",
+                  "title": "Пройти разом знайомим публічним маршрутом"
+                },
+                {
+                  "id": "community.walk.help.own-pace",
+                  "title": "Домовитися про прогулянку у зручному для обох темпі"
+                }
               ]
             },
             {
@@ -1505,6 +4065,24 @@
               "keywords": [
                 "читання",
                 "кіно"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.read.help.book",
+                  "title": "Обговорити прочитану книгу"
+                },
+                {
+                  "id": "community.read.help.film",
+                  "title": "Обмінятися враженнями про переглянутий фільм"
+                },
+                {
+                  "id": "community.read.help.chapter",
+                  "title": "Разом обговорити невеликий розділ чи уривок"
+                },
+                {
+                  "id": "community.read.help.questions",
+                  "title": "Підготувати запитання для дружнього обговорення"
+                }
               ]
             },
             {
@@ -1513,6 +4091,24 @@
               "description": "Обрати конкретну спільну дію й погодити час.",
               "keywords": [
                 "разом"
+              ],
+              "supportOptions": [
+                {
+                  "id": "community.small-action.help.choose",
+                  "title": "Разом обрати невелику безоплатну спільну справу"
+                },
+                {
+                  "id": "community.small-action.help.plan",
+                  "title": "Домовитися про конкретні кроки й час"
+                },
+                {
+                  "id": "community.small-action.help.company",
+                  "title": "Скласти компанію під час погодженої справи"
+                },
+                {
+                  "id": "community.small-action.help.reflection",
+                  "title": "Обговорити враження після спільної дії"
+                }
               ]
             }
           ]

@@ -1,4 +1,5 @@
 import json
+from support_options import options_for_topics
 from pathlib import Path
 
 # Stable semantic IDs: display order and wording can evolve without changing saved selections.
@@ -202,5 +203,14 @@ for cid,title,description,groups in rows:
     categories.append({'id':cid,'title':title,'description':description,'groups':[
         {'id':gid,'title':gt,'topics':[{'id':f'{cid}.{tid}','title':tt,'description':td,'keywords':kw.split()} for tid,tt,td,kw in topics]}
         for gid,gt,topics in groups]})
-catalog={'version':2,'status':'proposal','locale':'uk','updatedAt':'2026-10-09','selection':{'minimumPerSection':1,'maximumPerSection':3},'categories':categories}
+support_options = options_for_topics()
+topic_ids = {topic['id'] for category in categories for group in category['groups'] for topic in group['topics']}
+if topic_ids != set(support_options):
+    raise ValueError('Support options must cover exactly the existing topic IDs')
+for category in categories:
+    for group in category['groups']:
+        for topic in group['topics']:
+            topic['supportOptions'] = support_options[topic['id']]
+catalog={'version':3,'status':'proposal','locale':'uk','updatedAt':'2026-10-09','selection':{'minimumPerSection':1,'maximumPerSection':3,'unit':'supportOption'},'profile':{'photoRequiredForPublication':True},'categories':categories}
 Path(__file__).with_name('catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+
