@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "status": "proposal",
   "locale": "uk",
   "updatedAt": "2026-10-09",
@@ -4108,6 +4108,91 @@
                 {
                   "id": "community.small-action.help.reflection",
                   "title": "Обговорити враження після спільної дії"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Технології та цифрова творчість",
+      "description": "Створювати цифрові проєкти й навчатися разом на конкретних практичних кроках.",
+      "groups": [
+        {
+          "id": "game-development",
+          "title": "Розробка ігор",
+          "topics": [
+            {
+              "id": "technology.3d-games",
+              "title": "Створення 3D-ігор",
+              "description": "Отримати допомогу з першою грою: від задуму й налаштування рушія до сцени, механік і перевірки прототипу.",
+              "keywords": [
+                "3D",
+                "3д",
+                "ігри",
+                "гра",
+                "геймдев",
+                "gamedev",
+                "game",
+                "development",
+                "Unity",
+                "Unreal",
+                "Engine",
+                "Godot",
+                "прототип",
+                "сцена",
+                "персонаж",
+                "камера"
+              ],
+              "supportOptions": [
+                {
+                  "id": "technology.3d-games.help.prototype-plan",
+                  "title": "Допомогти спланувати перший прототип гри"
+                },
+                {
+                  "id": "technology.3d-games.help.engine-setup",
+                  "title": "Допомогти налаштувати ігровий рушій і створити проєкт"
+                },
+                {
+                  "id": "technology.3d-games.help.3d-scene",
+                  "title": "Разом створити просту 3D-сцену"
+                },
+                {
+                  "id": "technology.3d-games.help.character-camera",
+                  "title": "Пояснити керування персонажем і камерою"
+                },
+                {
+                  "id": "technology.3d-games.help.mechanic-error",
+                  "title": "Разом розібрати помилку в ігровій механіці"
+                },
+                {
+                  "id": "technology.3d-games.help.prototype-feedback",
+                  "title": "Переглянути прототип і дати відгук"
+                }
+              ],
+              "selectionFields": [
+                {
+                  "id": "engine",
+                  "title": "Ігровий рушій",
+                  "default": "Ще не обрав",
+                  "options": [
+                    "Ще не обрав",
+                    "Unity",
+                    "Unreal Engine",
+                    "Godot"
+                  ]
+                },
+                {
+                  "id": "experience",
+                  "title": "Мій рівень",
+                  "default": "Починаю з нуля",
+                  "options": [
+                    "Починаю з нуля",
+                    "Маю базові знання",
+                    "Вже роблю власну гру"
+                  ]
                 }
               ]
             }

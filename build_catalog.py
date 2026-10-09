@@ -196,6 +196,9 @@ rows = [
 ('walk','Компанія для прогулянки','Домовитися про посильну спільну активність і формат.','прогулянка'),
 ('read','Обговорити книгу чи фільм','Знайти співрозмовника для уважного обміну враженнями.','читання кіно'),
 ('small-action','Зробити невелику справу разом','Обрати конкретну спільну дію й погодити час.','разом')])]),
+('technology','Технології та цифрова творчість','Створювати цифрові проєкти й навчатися разом на конкретних практичних кроках.',[
+('game-development','Розробка ігор',[
+('3d-games','Створення 3D-ігор','Отримати допомогу з першою грою: від задуму й налаштування рушія до сцени, механік і перевірки прототипу.','3D 3д ігри гра геймдев gamedev game development Unity Unreal Engine Godot прототип сцена персонаж камера')])]),
 ]
 
 categories=[]
@@ -211,6 +214,11 @@ for category in categories:
     for group in category['groups']:
         for topic in group['topics']:
             topic['supportOptions'] = support_options[topic['id']]
-catalog={'version':3,'status':'proposal','locale':'uk','updatedAt':'2026-10-09','selection':{'minimumPerSection':1,'maximumPerSection':3,'unit':'supportOption'},'profile':{'photoRequiredForPublication':True},'categories':categories}
+            if topic['id'] == 'technology.3d-games':
+                topic['selectionFields'] = [
+                    {'id':'engine','title':'Ігровий рушій','default':'Ще не обрав','options':['Ще не обрав','Unity','Unreal Engine','Godot']},
+                    {'id':'experience','title':'Мій рівень','default':'Починаю з нуля','options':['Починаю з нуля','Маю базові знання','Вже роблю власну гру']},
+                ]
+catalog={'version':4,'status':'proposal','locale':'uk','updatedAt':'2026-10-09','selection':{'minimumPerSection':1,'maximumPerSection':3,'unit':'supportOption'},'profile':{'photoRequiredForPublication':True},'categories':categories}
 Path(__file__).with_name('catalog.json').write_text(json.dumps(catalog,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 
