@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "status": "proposal",
   "locale": "uk",
   "updatedAt": "2026-10-09",
@@ -1733,8 +1733,8 @@
     },
     {
       "id": "projects",
-      "title": "Власна справа та проєкти",
-      "description": "Від першої ідеї до зрозумілого наступного кроку.",
+      "title": "Власний бізнес, стартапи та проєкти",
+      "description": "Від власної справи до інноваційного продукту: безоплатний обмін досвідом і конкретна допомога.",
       "groups": [
         {
           "id": "start",
@@ -2066,8 +2066,374 @@
               ]
             }
           ]
+        },
+        {
+          "id": "business-launch",
+          "title": "Запуск і розвиток бізнесу",
+          "topics": [
+            {
+              "id": "projects.business-model",
+              "title": "Бізнес-модель власної справи",
+              "description": "Розібрати, для кого працює бізнес, яку цінність дає та як організовані доходи й витрати.",
+              "keywords": [
+                "бізнес",
+                "бізнес-модель",
+                "власна",
+                "справа",
+                "підприємництво",
+                "Business",
+                "Model",
+                "Canvas"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.business-model.help.canvas",
+                  "title": "Разом заповнити простий шаблон бізнес-моделі"
+                },
+                {
+                  "id": "projects.business-model.help.value",
+                  "title": "Допомогти сформулювати цінність для клієнта"
+                },
+                {
+                  "id": "projects.business-model.help.assumptions",
+                  "title": "Виписати припущення про доходи й витрати"
+                },
+                {
+                  "id": "projects.business-model.help.feedback",
+                  "title": "Дати відгук на зрозумілість бізнес-моделі"
+                }
+              ]
+            },
+            {
+              "id": "projects.business-plan",
+              "title": "Бізнес-план і бюджет запуску",
+              "description": "Упорядкувати власний план запуску, припущення, витрати й потрібні ресурси.",
+              "keywords": [
+                "бізнес-план",
+                "старт",
+                "запуск",
+                "підприємство",
+                "бюджет",
+                "фінансовий",
+                "план"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.business-plan.help.outline",
+                  "title": "Допомогти скласти структуру бізнес-плану"
+                },
+                {
+                  "id": "projects.business-plan.help.launch-costs",
+                  "title": "Разом упорядкувати власний список витрат запуску"
+                },
+                {
+                  "id": "projects.business-plan.help.resources",
+                  "title": "Зіставити заплановані завдання з наявними ресурсами"
+                },
+                {
+                  "id": "projects.business-plan.help.assumptions",
+                  "title": "Допомогти відокремити факти від припущень у плані"
+                }
+              ]
+            },
+            {
+              "id": "projects.operations",
+              "title": "Організація роботи власного бізнесу",
+              "description": "Обмінятися досвідом процесів, щоденних завдань і розподілу відповідальності.",
+              "keywords": [
+                "бізнес",
+                "операції",
+                "процеси",
+                "команда",
+                "управління"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.operations.help.process",
+                  "title": "Разом описати один щоденний робочий процес"
+                },
+                {
+                  "id": "projects.operations.help.roles",
+                  "title": "Допомогти розподілити завдання й відповідальність"
+                },
+                {
+                  "id": "projects.operations.help.checklist",
+                  "title": "Скласти простий контрольний список для повторюваної роботи"
+                },
+                {
+                  "id": "projects.operations.help.experience",
+                  "title": "Поділитися власним досвідом організації невеликої справи"
+                }
+              ]
+            },
+            {
+              "id": "projects.growth",
+              "title": "Розвиток і масштабування справи",
+              "description": "Обговорити готовність до зростання та посильний наступний етап бізнесу.",
+              "keywords": [
+                "бізнес",
+                "масштабування",
+                "розвиток",
+                "зростання"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.growth.help.bottlenecks",
+                  "title": "Разом знайти перешкоди для зростання справи"
+                },
+                {
+                  "id": "projects.growth.help.readiness",
+                  "title": "Обговорити готовність процесів до більшого навантаження"
+                },
+                {
+                  "id": "projects.growth.help.experiment",
+                  "title": "Допомогти спланувати невелику перевірку нового напряму"
+                },
+                {
+                  "id": "projects.growth.help.experience",
+                  "title": "Поділитися власним досвідом розвитку бізнесу"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "startups",
+          "title": "Інновації та стартапи",
+          "topics": [
+            {
+              "id": "projects.innovation",
+              "title": "Ідея інноваційного продукту",
+              "description": "Уточнити проблему, новизну рішення та відмінність від наявних альтернатив.",
+              "keywords": [
+                "інновації",
+                "інновація",
+                "стартап",
+                "технології",
+                "продукт",
+                "startup"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.innovation.help.problem",
+                  "title": "Допомогти чітко описати проблему майбутнього продукту"
+                },
+                {
+                  "id": "projects.innovation.help.alternatives",
+                  "title": "Разом упорядкувати відомі альтернативи рішення"
+                },
+                {
+                  "id": "projects.innovation.help.difference",
+                  "title": "Дати відгук на пояснення новизни продукту"
+                },
+                {
+                  "id": "projects.innovation.help.hypothesis",
+                  "title": "Допомогти сформулювати ключове припущення для перевірки"
+                }
+              ]
+            },
+            {
+              "id": "projects.mvp",
+              "title": "Перший прототип і MVP",
+              "description": "Визначити найменшу версію продукту, щоб показати задум і перевірити ключове припущення.",
+              "keywords": [
+                "MVP",
+                "мінімальний",
+                "життєздатний",
+                "продукт",
+                "прототип",
+                "стартап",
+                "запуск"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.mvp.help.scope",
+                  "title": "Допомогти обрати мінімальні функції першої версії"
+                },
+                {
+                  "id": "projects.mvp.help.prototype",
+                  "title": "Разом скласти план простого демонстраційного прототипу"
+                },
+                {
+                  "id": "projects.mvp.help.test-plan",
+                  "title": "Підготувати сценарій перевірки прототипу з користувачем"
+                },
+                {
+                  "id": "projects.mvp.help.feedback",
+                  "title": "Дати відгук на обсяг і зрозумілість першої версії"
+                }
+              ]
+            },
+            {
+              "id": "projects.product-experiments",
+              "title": "Продуктові метрики та експерименти",
+              "description": "Упорядкувати гіпотези, спостереження й критерії перевірки першої версії продукту.",
+              "keywords": [
+                "стартап",
+                "інновації",
+                "метрики",
+                "гіпотеза",
+                "експеримент",
+                "аналітика",
+                "продукт"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.product-experiments.help.hypothesis",
+                  "title": "Допомогти записати гіпотезу продуктового експерименту"
+                },
+                {
+                  "id": "projects.product-experiments.help.success",
+                  "title": "Разом визначити спостережуваний критерій результату"
+                },
+                {
+                  "id": "projects.product-experiments.help.notes",
+                  "title": "Упорядкувати наявні спостереження й відгуки користувачів"
+                },
+                {
+                  "id": "projects.product-experiments.help.next-test",
+                  "title": "Обговорити наступну перевірку на основі зібраних даних"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "funding",
+          "title": "Залучення фінансування",
+          "topics": [
+            {
+              "id": "projects.investor-pitch",
+              "title": "Пітч і презентація для інвестора",
+              "description": "Підготувати зрозумілу розповідь про стартап і потренувати відповіді на запитання.",
+              "keywords": [
+                "інвестиції",
+                "інвестиційний",
+                "стартап",
+                "інвестор",
+                "пітч",
+                "pitch",
+                "deck",
+                "презентація"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.investor-pitch.help.deck",
+                  "title": "Переглянути структуру презентації для інвестора"
+                },
+                {
+                  "id": "projects.investor-pitch.help.rehearse",
+                  "title": "Провести пробний пітч із запитаннями слухача"
+                },
+                {
+                  "id": "projects.investor-pitch.help.clarity",
+                  "title": "Дати відгук на зрозумілість продукту й бізнес-моделі"
+                },
+                {
+                  "id": "projects.investor-pitch.help.evidence",
+                  "title": "Допомогти відокремити підтверджені результати від прогнозів"
+                }
+              ]
+            },
+            {
+              "id": "projects.investment-readiness",
+              "title": "Підготовка стартапу до інвестицій",
+              "description": "Упорядкувати матеріали, підтверджені результати й запитання до майбутньої зустрічі.",
+              "keywords": [
+                "інвестиції",
+                "інвестор",
+                "інвестиційний",
+                "стартап",
+                "фінансування",
+                "fundraising",
+                "раунд"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.investment-readiness.help.materials",
+                  "title": "Разом скласти список матеріалів до зустрічі з інвестором"
+                },
+                {
+                  "id": "projects.investment-readiness.help.milestones",
+                  "title": "Допомогти описати етапи розвитку й потрібні ресурси"
+                },
+                {
+                  "id": "projects.investment-readiness.help.questions",
+                  "title": "Підготувати власні запитання про процес залучення коштів"
+                },
+                {
+                  "id": "projects.investment-readiness.help.experience",
+                  "title": "Поділитися власним досвідом підготовки стартапу до інвестицій"
+                }
+              ]
+            },
+            {
+              "id": "projects.grants",
+              "title": "Акселератори, інкубатори та гранти",
+              "description": "Обмінятися досвідом участі та підготувати матеріали для обраної програми.",
+              "keywords": [
+                "грант",
+                "акселератор",
+                "інкубатор",
+                "стартап",
+                "заявка",
+                "фінансування"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.grants.help.criteria",
+                  "title": "Разом прочитати умови вже обраної програми"
+                },
+                {
+                  "id": "projects.grants.help.application",
+                  "title": "Дати відгук на чернетку заявки"
+                },
+                {
+                  "id": "projects.grants.help.checklist",
+                  "title": "Допомогти впорядкувати вимоги й строки подання"
+                },
+                {
+                  "id": "projects.grants.help.experience",
+                  "title": "Поділитися власним досвідом участі в акселераторі чи гранті"
+                }
+              ]
+            },
+            {
+              "id": "projects.bootstrapping",
+              "title": "Розвиток стартапу власними ресурсами",
+              "description": "Обговорити посильний обсяг продукту, наявні ресурси та наступний крок без зовнішнього фінансування.",
+              "keywords": [
+                "бутстрепінг",
+                "bootstrapping",
+                "власні",
+                "кошти",
+                "ресурси",
+                "бізнес",
+                "стартап"
+              ],
+              "supportOptions": [
+                {
+                  "id": "projects.bootstrapping.help.resources",
+                  "title": "Разом описати наявні ресурси й обмеження"
+                },
+                {
+                  "id": "projects.bootstrapping.help.scope",
+                  "title": "Допомогти зменшити обсяг першої версії під власні ресурси"
+                },
+                {
+                  "id": "projects.bootstrapping.help.plan",
+                  "title": "Скласти посильний план наступного етапу"
+                },
+                {
+                  "id": "projects.bootstrapping.help.experience",
+                  "title": "Поділитися досвідом запуску без зовнішнього фінансування"
+                }
+              ]
+            }
+          ]
         }
-      ]
+      ],
+      "notice": "Допомога тут безоплатна. Можна обговорювати бізнес і готувати стартап; продажі, платні послуги та пропозиції вкласти кошти через взаємопідтримку заборонені."
     },
     {
       "id": "learning",
@@ -4108,6 +4474,91 @@
                 {
                   "id": "community.small-action.help.reflection",
                   "title": "Обговорити враження після спільної дії"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "technology",
+      "title": "Технології та цифрова творчість",
+      "description": "Створювати цифрові проєкти й навчатися разом на конкретних практичних кроках.",
+      "groups": [
+        {
+          "id": "game-development",
+          "title": "Розробка ігор",
+          "topics": [
+            {
+              "id": "technology.3d-games",
+              "title": "Створення 3D-ігор",
+              "description": "Отримати допомогу з першою грою: від задуму й налаштування рушія до сцени, механік і перевірки прототипу.",
+              "keywords": [
+                "3D",
+                "3д",
+                "ігри",
+                "гра",
+                "геймдев",
+                "gamedev",
+                "game",
+                "development",
+                "Unity",
+                "Unreal",
+                "Engine",
+                "Godot",
+                "прототип",
+                "сцена",
+                "персонаж",
+                "камера"
+              ],
+              "supportOptions": [
+                {
+                  "id": "technology.3d-games.help.prototype-plan",
+                  "title": "Допомогти спланувати перший прототип гри"
+                },
+                {
+                  "id": "technology.3d-games.help.engine-setup",
+                  "title": "Допомогти налаштувати ігровий рушій і створити проєкт"
+                },
+                {
+                  "id": "technology.3d-games.help.3d-scene",
+                  "title": "Разом створити просту 3D-сцену"
+                },
+                {
+                  "id": "technology.3d-games.help.character-camera",
+                  "title": "Пояснити керування персонажем і камерою"
+                },
+                {
+                  "id": "technology.3d-games.help.mechanic-error",
+                  "title": "Разом розібрати помилку в ігровій механіці"
+                },
+                {
+                  "id": "technology.3d-games.help.prototype-feedback",
+                  "title": "Переглянути прототип і дати відгук"
+                }
+              ],
+              "selectionFields": [
+                {
+                  "id": "engine",
+                  "title": "Ігровий рушій",
+                  "default": "Ще не обрав",
+                  "options": [
+                    "Ще не обрав",
+                    "Unity",
+                    "Unreal Engine",
+                    "Godot"
+                  ]
+                },
+                {
+                  "id": "experience",
+                  "title": "Мій рівень",
+                  "default": "Починаю з нуля",
+                  "options": [
+                    "Починаю з нуля",
+                    "Маю базові знання",
+                    "Вже роблю власну гру"
+                  ]
                 }
               ]
             }
