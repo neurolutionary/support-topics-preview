@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#11100e">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="description" content="Інтерактивний каталог тем взаємопідтримки Neurolutionary: категорії, підрозділи та вибір тем для однієї картки.">
+  <title>Теми взаємопідтримки · Neurolutionary</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar"><a class="brand" href="./" aria-label="Neurolutionary — початок каталогу"><span class="brand-mark">N</span><span>Neurolutionary<small>Взаємопідтримка</small></span></a><span class="preview-badge"><span></span>Каталог для перегляду</span><button class="icon-button" id="helpButton" aria-label="Як працює вибір тем">?</button></header>
+  <div class="layout">
+    <aside class="navigation" aria-label="Категорії тем"><p class="eyebrow">Життєві сфери</p><nav id="categoryNav"></nav><div class="nav-note"><span class="small-star">✧</span><p>Тема — привід для знайомства. Обсяг підтримки ви узгоджуєте між собою.</p></div></aside>
+    <main id="main">
+      <section class="hero"><p class="eyebrow">Знайти спільну тему</p><h1>У чому можемо<br><em>підтримати одне одного?</em></h1><p class="intro">У кожного є досвід, яким можна поділитися,<br class="desktop-break"> і питання, у яких потрібна підтримка.</p><div class="catalog-facts"><span><b id="topicTotal">144</b> конкретні теми</span><i></i><span><b>12</b> категорій</span><i></i><span>Одна картка</span></div></section>
+      <section class="finder" aria-label="Пошук та вибір тем">
+        <div class="section-switch" role="group" aria-label="Розділ моєї картки"><button class="active" data-section="offer" aria-pressed="true"><span class="switch-icon">↗</span>Можу підтримати <span class="count" id="offerCount">0/3</span></button><button data-section="need" aria-pressed="false"><span class="switch-icon">↙</span>Шукаю підтримку <span class="count" id="needCount">0/3</span></button></div>
+        <p class="selection-hint" id="selectionHint">Обери 1–3 теми, у яких готовий поділитися власним досвідом.</p>
+        <div class="search-wrap"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4"/></svg><input id="search" type="search" placeholder="Знайти тему: втома, співбесіда, переїзд…" aria-label="Пошук тем у всьому каталозі" autocomplete="off"><kbd>/</kbd></div>
+        <div class="viewbar"><div class="view-switch" role="group" aria-label="Вигляд каталогу"><button id="categoriesView" class="active" aria-pressed="true">Категорії</button><button id="topicsView" aria-pressed="false">Усі теми</button></div><span id="resultsMeta">12 життєвих сфер</span></div>
+      </section>
+      <section id="catalog" aria-label="Каталог тем"><p class="loading">Завантажуємо каталог…</p></section>
+      <footer class="page-footer"><span class="footer-mark">N</span><p>Власний досвід, уважна розмова, конкретні домовленості.<br><span>У темах про здоров’я, гроші та складні обставини обговорюємо особистий досвід. Кваліфікацію фахівця тема картки не підтверджує.</span></p><button id="resetButton">Очистити мій вибір</button></footer>
+    </main>
+    <aside class="card-panel" aria-label="Попередній перегляд моєї картки"><div class="panel-heading"><p class="eyebrow">Моя картка</p><span>Попередній перегляд</span></div><div class="profile-heading"><span class="avatar">Я</span><div><h2>Мої теми</h2><p>Два розділи. Один профіль.</p></div></div><div id="desktopSelections"></div><div class="scope-note"><span>◷</span><p>Скільки часу й у якому форматі можеш підтримати — вкажеш у картці.</p></div><button class="primary apply-button" disabled>Переглянути демокартку <span>↗</span></button><p class="apply-hint">Щонайменше одна тема в кожному розділі.</p><p class="local-note">Вибір зберігається тільки в цьому браузері.</p></aside>
+  </div>
+  <div class="mobile-tray"><button id="openSelections"><span class="tray-icon">◇</span><span>Мої теми<small id="mobileSummary">Можу 0/3 · Шукаю 0/3</small></span><span class="tray-arrow">↑</span></button></div>
+  <dialog id="selectionDialog" class="sheet"><div class="dialog-header"><div><p class="eyebrow">Одна картка</p><h2>Мої теми</h2></div><button class="icon-button close-dialog" aria-label="Закрити">×</button></div><div id="mobileSelections"></div><p class="scope-note">Обери 1–3 теми в кожному розділі. Одна й та сама тема може бути в обох.</p><button class="primary apply-button" disabled>Переглянути демокартку <span>↗</span></button><p class="apply-hint">Щонайменше одна тема в кожному розділі.</p></dialog>
+  <dialog id="cardDialog" class="sheet"><div class="dialog-header"><div><p class="eyebrow">Попередній перегляд</p><h2>Твоя картка</h2></div><button class="icon-button close-dialog" aria-label="Закрити">×</button></div><div class="demo-avatar">Я</div><div id="cardSelections"></div><div class="language-block"><p class="eyebrow">Мови спілкування</p><p>Можна обрати кілька мов</p><div class="language-options"><label><input type="checkbox" value="Українська" checked>Українська</label><label><input type="checkbox" value="Англійська">Англійська</label><label><input type="checkbox" value="Польська">Польська</label><label><input type="checkbox" value="Німецька">Німецька</label></div></div><label class="scope-field">Мій формат і межі підтримки<textarea id="demoScope" rows="3" placeholder="Наприклад: одна розмова до 20 хвилин онлайн. Можу вислухати й поділитися своїм досвідом."></textarea></label><p class="local-note">Це демонстрація картки. Вона не публікується у застосунку.</p><button class="primary close-dialog">Повернутися до тем</button></dialog>
+  <dialog id="helpDialog" class="sheet"><div class="dialog-header"><div><p class="eyebrow">Як це працює</p><h2>Теми однієї картки</h2></div><button class="icon-button close-dialog" aria-label="Закрити">×</button></div><ol class="help-list"><li><b>Знайди конкретну тему.</b><p>Скористайся категоріями, підрозділами або пошуком у всьому каталозі.</p></li><li><b>Обери 1–3 теми в кожному розділі.</b><p>«Можу підтримати» та «Шукаю підтримку» — дві частини одного профілю. Тема може повторюватися в обох.</p></li><li><b>Вкажи свій обсяг підтримки.</b><p>Тема не означає необмежену готовність допомагати. Час, формат і межі ви узгоджуєте для конкретної взаємодії.</p></li></ol><p class="local-note">Це каталог для перегляду структури. Обрані теми лишаються в цьому браузері; запити іншим людям не надсилаються.</p><button class="primary close-dialog">Зрозуміло</button></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
