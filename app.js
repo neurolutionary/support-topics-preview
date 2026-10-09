@@ -90,7 +90,7 @@ document.querySelectorAll('.language-options input').forEach(input=>input.addEve
 document.addEventListener('keydown',event=>{if(event.key==='/'&&!event.ctrlKey&&!event.metaKey&&!['INPUT','TEXTAREA','SELECT'].includes(document.activeElement.tagName)&&!document.querySelector('dialog[open]')){event.preventDefault();$('search').focus();}});
 document.querySelectorAll('dialog').forEach(dialog=>dialog.addEventListener('click',event=>{if(event.target===dialog){const box=dialog.getBoundingClientRect();if(event.clientX<box.left||event.clientX>box.right||event.clientY<box.top||event.clientY>box.bottom)dialog.close();}}));
 async function init(){try{
-  const response=await fetch('catalog.json');if(!response.ok)throw new Error('Catalog unavailable');catalog=await response.json();
+  const response=await fetch('catalog.json?v=3');if(!response.ok)throw new Error('Catalog unavailable');catalog=await response.json();
   allTopics=catalog.categories.flatMap(category=>category.groups.flatMap(group=>group.topics.map(topic=>({...topic,categoryId:category.id,categoryTitle:category.title,groupId:group.id,groupTitle:group.title}))));topicMap=new Map(allTopics.map(topic=>[topic.id,topic]));optionMap=new Map();
   for(const topic of allTopics){if(!Array.isArray(topic.supportOptions)||!topic.supportOptions.length)throw new Error('Missing support options');for(const option of topic.supportOptions){if(optionMap.has(option.id)||!option.title)throw new Error('Invalid support option');optionMap.set(option.id,{...option,topicId:topic.id,topicTitle:topic.title});}}
   restore();$('topicTotal').textContent=String(allTopics.length);$('supportTotal').textContent=String(optionMap.size);renderSummary();renderCatalog();
