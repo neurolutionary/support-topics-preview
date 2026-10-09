@@ -41,7 +41,11 @@ function groupHtml(group, topics) { return topics.length ? `<section class="topi
 function matches(topic) {
   const words = normalize(state.query).split(/\s+/).filter(Boolean);
   const haystack = normalize([topic.title, topic.description, topic.keywords.join(' '), topic.categoryTitle, topic.groupTitle].join(' '));
-  return words.every(word => haystack.includes(word));
+  return words.every(word => {
+    // Let common Ukrainian endings vary: «співбесіда» also finds «співбесіди».
+    const stem = word.length >= 5 ? word.replace(/[аеиіоуяю]$/, '') : word;
+    return haystack.includes(word) || (stem !== word && haystack.includes(stem));
+  });
 }
 function renderCatalog() {
   renderNav();
